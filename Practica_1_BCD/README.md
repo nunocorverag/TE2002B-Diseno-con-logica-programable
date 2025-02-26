@@ -22,14 +22,14 @@
 
 # 📌 Tabla de Contenido
 
-1. [📜 Resumen](#-resumen)
-2. [🛠️ Introducción](#-introducción)
-3. [⚙️ Requisitos](#-requisitos)
-4. [📂 Estructura del Proyecto](#-estructura-del-proyecto)
-5. [📄 Contenido](#-contenido)
-6. [📈 Resultados](#-resultados)
-7. [✅ Conclusiones](#-conclusiones)
-8. [📖 Bibliografía](#-bibliografía)
+1. [📜 Resumen](#resumen)
+2. [🛠️ Introducción](#introduccion)
+3. [⚙️ Requisitos](#requisitos)
+4. [📂 Estructura del Proyecto](#estructura-del-proyecto)
+5. [📄 Contenido](#contenido)
+6. [📈 Resultados](#resultados)
+7. [✅ Conclusiones](#conclusiones)
+8. [📖 Bibliografía](#bibliografia)
 
 ---
 
