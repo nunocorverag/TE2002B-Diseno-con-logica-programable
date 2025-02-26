@@ -20,15 +20,26 @@
 
 </div>
 
+# 📌 Tabla de Contenido
+
+1. [📜 Resumen](#-resumen)
+2. [🛠️ Introducción](#-introducción)
+3. [⚙️ Requisitos](#-requisitos)
+4. [📂 Estructura del Proyecto](#-estructura-del-proyecto)
+5. [📄 Contenido](#-contenido)
+6. [📈 Resultados](#-resultados)
+7. [✅ Conclusiones](#-conclusiones)
+8. [📖 Bibliografía](#-bibliografía)
+
 ---
 
-# Resumen
+# 📜 Resumen
 
 La práctica consiste en diseñar e implementar un sistema en Verilog para la FPGA DE10-Lite que lea el valor ingresado en sus 10 switches, lo interprete como un número binario y lo convierta a su equivalente decimal. Este valor se mostrará en los displays de 7 segmentos mediante un decodificador. Para ello, se desarrollaron múltiples módulos en Verilog, incluyendo un decodificador de 7 segmentos, un manejador de displays y un módulo de pruebas (testbench) para verificar su funcionamiento.
 
 ---
 
-# Introducción
+# 🛠️ Introducción
 
 ## Verilog y Quartus
 
@@ -66,7 +77,31 @@ Además, para representar correctamente números de varias cifras, el sistema ut
 
 ---
 
-# Contenido
+# ⚙️ Requisitos
+
+- Quartus Prime Lite (Intel FPGA)
+- FPGA DE10-Lite o cualquier FPGA compatible con displays de 7 segmentos
+- Cable de programación JTAG
+
+---
+
+# 📂 Estructura del Proyecto
+
+/practica_1_bcd
+│── assets/
+│ ├── images/ # Imágenes utilizadas en el README
+│── simulation/
+│ ├── questa/ # Archivos de simulación en Questa Sim
+│── .gitignore # Archivos y carpetas ignoradas por Git
+│── Practica_1_BCD.qpf # Archivo del proyecto en Quartus
+│── Practica_1_BCD.qsf # Archivo de configuración del FPGA
+│── README.md # Documentación del proyecto
+│── bcd.v # Módulo principal para conversión a BCD
+│── bcd_tb.sv # Testbench para validación del sistema
+│── decoder_7_seg.v # Módulo de decodificación de 7 segmentos
+│── display_module.v # Módulo encargado del control de displays
+
+# 📄 Contenido
 
 ## 1. Código en Verilog
 
@@ -111,17 +146,17 @@ Para lograrlo, se desarrollaron los siguientes módulos:
 
 ---
 
-# Resultados
+# 📈 Resultados
 
 Para la verificación del funcionamiento del sistema, se utilizó Questa Sim de Intel para realizar la simulación y observar las formas de onda generadas. Se realizaron 10 casos de prueba para verificar el correcto funcionamiento del sistema. En la imagen de las formas de onda, se puede ver cómo los valores ingresados a través de los switches se interpretan correctamente y se descomponen en sus respectivas unidades, decenas, centenas y millares.
 
-# Conclusiones
+# ✅ Conclusiones
 
 Inicialmente, se consideró implementar la lógica del convertidor a decimal en un solo archivo con múltiples módulos de display. Sin embargo, se descubrió que no era necesario modificar el archivo del decoder, ya que su única tarea es decodificar un número específico. En cambio, la transformación a decimal se implementó en el módulo superior display_module, lo que permitió una estructura modular más flexible y reutilizable.
 
 Gracias a esta organización, el sistema ahora puede representar números de hasta 999,999 sin necesidad de modificar el decoder original, lo que optimiza el desarrollo y facilita la reutilización de código.
 
-# Bibliografía
+# 📖 Bibliografía
 
 Romero, J. (2021, 21 diciembre). ¿Qué es un FPGA y para qué sirve? _GEEKNETIC._  
 [https://www.geeknetic.es/FPGA/que-es-y-para-que-sirve](https://www.geeknetic.es/FPGA/que-es-y-para-que-sirve)
