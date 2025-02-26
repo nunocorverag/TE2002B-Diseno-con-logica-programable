@@ -1,5 +1,5 @@
-module up_down_counter_parallel_load #(parameter COUNT_SIZE = 20) (
-    input [20:0] data_in,
+module up_down_counter_parallel_load #(parameter COUNT_SIZE = 20, DATA_IN_SIZE = 10) (
+    input [DATA_IN_SIZE-1:0] data_in,
     input up_down, // 0 down, 1 up
     input load, // number to load 0 disabled, 1 enabled
     input clk, // clock
@@ -15,7 +15,7 @@ module up_down_counter_parallel_load #(parameter COUNT_SIZE = 20) (
 always @(posedge clk or posedge clear)
 begin
     if(clear)
-        count <= 1200;
+        count <= 0;
     else if(load)
         count <= data_in;
 	else if(enable)

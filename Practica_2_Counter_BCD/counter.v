@@ -1,11 +1,11 @@
-module counter #(parameter SEGMENTOS = 7, BIT_SIZE = 20, FREQ = 1)(
+module counter #(parameter SEGMENTOS = 7, BIT_SIZE = 20, FREQ = 1, DATA_IN_SIZE = 6)(
     input clk, rst_btn, clear_btn, enable, up_down, load,
+    input [DATA_IN_SIZE-1:0] data_in,
     output [0:SEGMENTOS-1] D_decenas, D_unidades, D_centenas, D_millares, D_decenas_millares, D_centenas_millares
 );
 
 wire clk_div;
 wire [BIT_SIZE - 1:0] count;
-wire [BIT_SIZE-1:0] load_number = 19'hFF;
 wire c_out;
 wire rst_one_shot;
 wire clear_one_shot;
@@ -28,11 +28,11 @@ clock_divider #(.FREQ(FREQ)) CLOCK_DIVIDER (
     .clk_div(clk_div)
 );
 
-up_down_counter_parallel_load #(.COUNT_SIZE(BIT_SIZE)) UP_DOWN_COUNTER_PARALLEL_LOAD (
+up_down_counter_parallel_load #(.COUNT_SIZE(BIT_SIZE), .DATA_IN_SIZE(DATA_IN_SIZE)) UP_DOWN_COUNTER_PARALLEL_LOAD (
 	.clk(clk_div),
 	.clear(clear_one_shot),
 	.up_down(up_down),
-	.data_in(load_number),
+	.data_in(data_in),
 	.load(load),
 	.enable(enable),
 	.count(count),
