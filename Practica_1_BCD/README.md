@@ -22,14 +22,14 @@
 
 # 📌 Tabla de Contenido
 
-1. [📜 Resumen](#resumen)
-2. [🛠️ Introducción](#introduccion)
-3. [⚙️ Requisitos](#requisitos)
-4. [📂 Estructura del Proyecto](#estructura-del-proyecto)
-5. [📄 Contenido](#contenido)
-6. [📈 Resultados](#resultados)
-7. [✅ Conclusiones](#conclusiones)
-8. [📖 Bibliografía](#bibliografia)
+1. [📜 Resumen](#-resumen)
+2. [📖 Introducción](#-introducción)
+3. [🔧 Requisitos](#-requisitos)
+4. [📂 Estructura del Proyecto](#-estructura-del-proyecto)
+5. [📄 Contenido](#-contenido)
+6. [📈 Resultados](#-resultados)
+7. [✅ Conclusiones](#-conclusiones)
+8. [📖 Bibliografía](#-bibliografía)
 
 ---
 
@@ -39,7 +39,7 @@ La práctica consiste en diseñar e implementar un sistema en Verilog para la FP
 
 ---
 
-# 🛠️ Introducción
+# 📖 Introducción
 
 ## Verilog y Quartus
 
@@ -77,7 +77,7 @@ Además, para representar correctamente números de varias cifras, el sistema ut
 
 ---
 
-# ⚙️ Requisitos
+# 🔧 Requisitos
 
 - Quartus Prime Lite (Intel FPGA)
 - FPGA DE10-Lite o cualquier FPGA compatible con displays de 7 segmentos
