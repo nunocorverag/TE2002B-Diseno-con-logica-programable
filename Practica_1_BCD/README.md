@@ -29,7 +29,7 @@
 5. [📄 Contenido](#-contenido)
 6. [📈 Resultados](#-resultados)
 7. [✅ Conclusiones](#-conclusiones)
-8. [📖 Bibliografía](#-bibliografía)
+8. [📚 Bibliografía](#-bibliografía)
 
 ---
 
@@ -156,7 +156,7 @@ Inicialmente, se consideró implementar la lógica del convertidor a decimal en 
 
 Gracias a esta organización, el sistema ahora puede representar números de hasta 999,999 sin necesidad de modificar el decoder original, lo que optimiza el desarrollo y facilita la reutilización de código.
 
-# 📖 Bibliografía
+# 📚 Bibliografía
 
 Romero, J. (2021, 21 diciembre). ¿Qué es un FPGA y para qué sirve? _GEEKNETIC._  
 [https://www.geeknetic.es/FPGA/que-es-y-para-que-sirve](https://www.geeknetic.es/FPGA/que-es-y-para-que-sirve)
