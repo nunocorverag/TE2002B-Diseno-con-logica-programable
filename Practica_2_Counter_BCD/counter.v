@@ -1,4 +1,4 @@
-module counter #(parameter SEGMENTOS = 7, BIT_SIZE = 20, CYCLES = 12500000)(
+module counter #(parameter SEGMENTOS = 7, BIT_SIZE = 20, FREQ = 1)(
     input clk, rst_btn, clear_btn, enable, up_down, load,
     output [0:SEGMENTOS-1] D_decenas, D_unidades, D_centenas, D_millares, D_decenas_millares, D_centenas_millares
 );
@@ -22,7 +22,7 @@ debouncer_one_shot #(.INVERT_LOGIC(1)) DEB_ONE_SHOT_CLEAR (
     .signal_one_shot(clear_one_shot)
 );
 
-clock_divider #(.CYCLES(CYCLES)) CLOCK_DIVIDER (
+clock_divider #(.FREQ(FREQ)) CLOCK_DIVIDER (
     .clk(clk),
     .rst(rst_one_shot),
     .clk_div(clk_div)

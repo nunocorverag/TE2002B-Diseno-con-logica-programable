@@ -26,49 +26,49 @@
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD {C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/display_module.v}
 # Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
-# Start time: 22:25:04 on Feb 24,2025
+# Start time: 19:58:49 on Feb 25,2025
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD" C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/display_module.v 
 # -- Compiling module display_module
 # 
 # Top level modules:
 # 	display_module
-# End time: 22:25:05 on Feb 24,2025, Elapsed time: 0:00:01
+# End time: 19:58:49 on Feb 25,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD {C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/decoder_7_seg.v}
 # Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
-# Start time: 22:25:05 on Feb 24,2025
+# Start time: 19:58:49 on Feb 25,2025
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD" C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/decoder_7_seg.v 
 # -- Compiling module decoder_7_seg
 # 
 # Top level modules:
 # 	decoder_7_seg
-# End time: 22:25:05 on Feb 24,2025, Elapsed time: 0:00:00
+# End time: 19:58:50 on Feb 25,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD {C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/bcd.v}
 # Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
-# Start time: 22:25:05 on Feb 24,2025
+# Start time: 19:58:50 on Feb 25,2025
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD" C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/bcd.v 
 # -- Compiling module bcd
 # 
 # Top level modules:
 # 	bcd
-# End time: 22:25:05 on Feb 24,2025, Elapsed time: 0:00:00
+# End time: 19:58:50 on Feb 25,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -sv -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD {C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/bcd_tb.sv}
 # Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
-# Start time: 22:25:05 on Feb 24,2025
+# Start time: 19:58:50 on Feb 25,2025
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD" C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/bcd_tb.sv 
 # -- Compiling module bcd_tb
 # 
 # Top level modules:
 # 	bcd_tb
-# End time: 22:25:05 on Feb 24,2025, Elapsed time: 0:00:00
+# End time: 19:58:50 on Feb 25,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  bcd_tb
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" bcd_tb 
-# Start time: 22:25:05 on Feb 24,2025
+# Start time: 19:58:50 on Feb 25,2025
 # ** Note: (vsim-3812) Design is being optimized...
 # ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
 # ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
@@ -120,5 +120,3 @@ run -all
 # Valor a probar =  172
 # Valor a probar =  306
 # Valor a probar =   28
-# End time: 22:30:16 on Feb 24,2025, Elapsed time: 0:05:11
-# Errors: 0, Warnings: 1

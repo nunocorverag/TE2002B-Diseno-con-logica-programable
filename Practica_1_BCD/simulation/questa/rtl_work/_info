@@ -12,10 +12,10 @@ Z0 !s99 nomlopt
 cModel Technology
 Z1 dC:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/simulation/questa
 T_opt
-!s110 1740457506
-VI9NIJi:WEFlI5El>ol:]f1
+!s110 1740535131
+VaI>TMGDik20WIG[EQ9If00
 04 6 4 work bcd_tb fast 0
-=1-088fc38c151b-67bd4622-107-70a8
+=1-088fc38c151b-67be755b-d5-a198
 R0
 !s12b OEM100
 !s124 OEM10U9 
@@ -25,22 +25,22 @@ n@_opt
 OL;O;2023.3;77
 vbcd
 2C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/bcd.v
-Z3 !s110 1740457505
+Z3 !s110 1740535130
 !i10b 1
-!s100 0=kU64ThhjYzNne4DV73h2
-IJDP=>:If:o_k=_^[g_TlK0
+!s100 KYJeSzaijGk8`94n;:B7D0
+Ii;hi1?1fiSNJ18EKmzOXg0
 R1
-w1740456641
+w1740495447
 8C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/bcd.v
 FC:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/bcd.v
 !i122 2
-L0 1 16
+L0 1 17
 Z4 VDg1SIo80bB@j0V0VzS_@n1
 Z5 OL;L;2023.3;77
 r1
 !s85 0
 31
-Z6 !s108 1740457505.000000
+Z6 !s108 1740535130.000000
 !s107 C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/bcd.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD|C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/bcd.v|
 !i113 0
@@ -52,15 +52,15 @@ vbcd_tb
 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
 R3
 !i10b 1
-!s100 8RS7QC=HVcC6M6Y;eR2Na2
-Iz>c3fol@<SDf>0`oKK]b70
+!s100 >5?:@hHN1X@J6Iz[WFbQ62
+IWaMkH_OlG0h5Dhz3AioaT0
 S1
 R1
-w1740457115
+w1740495451
 8C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/bcd_tb.sv
 FC:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/bcd_tb.sv
 !i122 3
-L0 1 32
+L0 1 33
 R4
 R5
 r1
@@ -77,20 +77,20 @@ vdecoder_7_seg
 2C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/decoder_7_seg.v
 R3
 !i10b 1
-!s100 BjYCfcQCCjHn6O;0nCDXE0
-I:8U1<fSSY699<VToA`SJm3
+!s100 53Lm1[XWJ>??]]FOi[O_:2
+IZF^:3T>=3C94Y4j>hDc4S0
 R1
-w1739859525
+w1740460437
 8C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/decoder_7_seg.v
 FC:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/decoder_7_seg.v
 !i122 1
-L0 1 27
+L0 1 28
 R4
 R5
 r1
 !s85 0
 31
-R6
+Z9 !s108 1740535129.000000
 !s107 C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/decoder_7_seg.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD|C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/decoder_7_seg.v|
 !i113 0
@@ -99,22 +99,22 @@ R8
 R2
 vdisplay_module
 2C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/display_module.v
-R3
+!s110 1740535129
 !i10b 1
-!s100 fZG[1CaTALi3Nn?HCJnkN1
-I@81VLXU:N9BTb:o31UQ9k2
+!s100 b0E^U>lHC5:o3USJBPGzA2
+IFz4?29Q][al=f@D?RNgab0
 R1
-w1740148855
+w1740495453
 8C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/display_module.v
 FC:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/display_module.v
 !i122 0
-L0 1 51
+L0 3 53
 R4
 R5
 r1
 !s85 0
 31
-!s108 1740457504.000000
+R9
 !s107 C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/display_module.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD|C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/display_module.v|
 !i113 0
