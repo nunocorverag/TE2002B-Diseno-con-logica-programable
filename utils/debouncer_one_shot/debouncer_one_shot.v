@@ -9,7 +9,6 @@ wire debouncer_out;
 
 debouncer #(.INVERT_LOGIC(INVERT_LOGIC)) DEBOUNCER (
     .clk(clk),
-    .rst_a_p(rst),
     .debouncer_in(signal),
     .debouncer_out(debouncer_out)
 );

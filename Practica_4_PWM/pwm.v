@@ -4,7 +4,7 @@ module pwm #(parameter FREQ = 1000)(
 );
 
 wire clk_div;
-wire one_shot_pc_inc, one_shot_pb_dec;
+wire one_shot_pc_inc, one_shot_pb_dec, one_shot_rst;
 
 reg [31:0] DC;
 reg [31:0] counter;
@@ -26,6 +26,12 @@ clock_divider #(.FREQ(FREQ)) CLK_DIV_INST (
 );
 
 // Debouncer
+debouncer_one_shot #(.INVERT_LOGIC(0)) DEB_ONE_SHOT_RST (
+    .clk(clk_div),
+    .signal(rst),
+    .signal_one_shot(one_shot_rst)
+);
+
 debouncer_one_shot #(.INVERT_LOGIC(1)) DEB_ONE_SHOT_PB_INC (
     .clk(clk_div),
     .signal(pb_inc),
@@ -42,9 +48,9 @@ debouncer_one_shot #(.INVERT_LOGIC(1)) DEB_ONE_SHOT_PB_DEC (
 // Tenemos que tener el control de 2 cosas (2 alwys)
 // 1: Duty Cycle
 // 2: Dependiendo del Duty Cycle estamos arriba o abajo
-always @(posedge clk_div or posedge rst)
+always @(posedge clk_div or posedge one_shot_rst)
 begin
-    if (rst)
+    if (one_shot_rst)
 		DC <= 75_000; // Posición inicial - 90°
     else if (one_shot_pb_dec)
         if (DC > MIN_DC) 
@@ -58,9 +64,9 @@ end
 // Generación de la señal PWM
 
 // Contador de periodo
-always @(posedge clk_div or posedge rst)
+always @(posedge clk_div or posedge one_shot_rst)
 begin
-    if (rst)
+    if (one_shot_rst)
         counter <= 0;
     else if (counter >= count - 1)
         counter <= 0;
@@ -68,9 +74,9 @@ begin
         counter <= counter + 1;
 end
 
-always @(posedge clk_div or posedge rst)
+always @(posedge clk_div or posedge one_shot_rst)
 begin
-    if (rst)
+    if (one_shot_rst)
         pwm_out <= 0;
     else
         pwm_out <= (counter < DC) ? 1 : 0;
