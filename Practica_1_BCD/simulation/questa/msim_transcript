@@ -17,58 +17,61 @@
 # if {[file exists rtl_work]} {
 # 	vdel -lib rtl_work -all
 # }
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is gnuno@GUSTAVOACER.
 # vlib rtl_work
+# ** Warning: (vlib-34) Library already exists at "rtl_work".
+# Errors: 0, Warnings: 1
 # vmap work rtl_work
 # Questa Intel Starter FPGA Edition-64 vmap 2023.3 Lib Mapping Utility 2023.07 Jul 17 2023
 # vmap work rtl_work 
 # Copying c:/intelfpga_lite/23.1std/questa_fse/win64/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vlog -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD {C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/display_module.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/Gustavo/Documents/TEC/Sem\ 4\ 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/display {C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/display/display_module.v}
 # Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
-# Start time: 19:58:49 on Feb 25,2025
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD" C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/display_module.v 
+# Start time: 21:25:06 on Mar 03,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/display" C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/display/display_module.v 
 # -- Compiling module display_module
 # 
 # Top level modules:
 # 	display_module
-# End time: 19:58:49 on Feb 25,2025, Elapsed time: 0:00:00
+# End time: 21:25:06 on Mar 03,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD {C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/decoder_7_seg.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/Gustavo/Documents/TEC/Sem\ 4\ 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/display {C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/display/decoder_7_seg.v}
 # Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
-# Start time: 19:58:49 on Feb 25,2025
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD" C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/decoder_7_seg.v 
+# Start time: 21:25:06 on Mar 03,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/display" C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/display/decoder_7_seg.v 
 # -- Compiling module decoder_7_seg
 # 
 # Top level modules:
 # 	decoder_7_seg
-# End time: 19:58:50 on Feb 25,2025, Elapsed time: 0:00:01
+# End time: 21:25:07 on Mar 03,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD {C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/bcd.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/Gustavo/Documents/TEC/Sem\ 4\ 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/Practica_1_BCD {C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/bcd.v}
 # Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
-# Start time: 19:58:50 on Feb 25,2025
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD" C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/bcd.v 
+# Start time: 21:25:07 on Mar 03,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/Practica_1_BCD" C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/bcd.v 
 # -- Compiling module bcd
 # 
 # Top level modules:
 # 	bcd
-# End time: 19:58:50 on Feb 25,2025, Elapsed time: 0:00:00
+# End time: 21:25:07 on Mar 03,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vlog -sv -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD {C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/bcd_tb.sv}
+# vlog -sv -work work +incdir+C:/Users/Gustavo/Documents/TEC/Sem\ 4\ 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/Practica_1_BCD {C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/bcd_tb.sv}
 # Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
-# Start time: 19:58:50 on Feb 25,2025
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD" C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/bcd_tb.sv 
+# Start time: 21:25:07 on Mar 03,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/Practica_1_BCD" C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/bcd_tb.sv 
 # -- Compiling module bcd_tb
 # 
 # Top level modules:
 # 	bcd_tb
-# End time: 19:58:50 on Feb 25,2025, Elapsed time: 0:00:00
+# End time: 21:25:07 on Mar 03,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  bcd_tb
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" bcd_tb 
-# Start time: 19:58:50 on Feb 25,2025
+# Start time: 21:25:07 on Mar 03,2025
 # ** Note: (vsim-3812) Design is being optimized...
 # ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
 # ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
@@ -79,6 +82,11 @@
 # Loading work.decoder_7_seg(fast)
 # 
 # add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: gnuno  Hostname: GUSTAVOACER  ProcessID: 41368
+#           Attempting to use alternate WLF file "./wlftfzy5a1".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftfzy5a1
 # view structure
 # .main_pane.structure.interior.cs.body.struct
 # view signals
@@ -94,29 +102,5 @@
 # Valor a probar =  172
 # Valor a probar =  306
 # Valor a probar =   28
-add wave -position insertpoint  \
-sim:/bcd_tb/DUT/DISPLAY_MODULE/unidades_wire \
-sim:/bcd_tb/DUT/DISPLAY_MODULE/decenas_wire \
-sim:/bcd_tb/DUT/DISPLAY_MODULE/centenas_wire \
-sim:/bcd_tb/DUT/DISPLAY_MODULE/millares_wire \
-sim:/bcd_tb/DUT/DISPLAY_MODULE/decenas_millares_wire \
-sim:/bcd_tb/DUT/DISPLAY_MODULE/centenas_millares_wire
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Note: (vsim-8009) Loading existing optimized design _opt
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
-# Loading work.bcd_tb(fast)
-# Loading work.bcd(fast)
-# Loading work.display_module(fast)
-# Loading work.decoder_7_seg(fast)
-run -all
-# Valor a probar =  547
-# Valor a probar =  562
-# Valor a probar =  522
-# Valor a probar =  797
-# Valor a probar =  440
-# Valor a probar =  730
-# Valor a probar =  704
-# Valor a probar =  172
-# Valor a probar =  306
-# Valor a probar =   28
+# End time: 21:25:46 on Mar 03,2025, Elapsed time: 0:00:39
+# Errors: 0, Warnings: 3

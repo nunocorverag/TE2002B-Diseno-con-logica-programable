@@ -1,8 +1,10 @@
 m255
 K4
 z2
-!s12c _opt
+!s12c _opt1
 Z0 !s99 nomlopt
+!s12c _opt
+R0
 !s11f vlog 2023.3 2023.07, Jul 17 2023
 13
 !s112 1.1
@@ -14,110 +16,123 @@ Z1 dC:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno
 T_opt
 !s110 1740535131
 VaI>TMGDik20WIG[EQ9If00
-04 6 4 work bcd_tb fast 0
+Z2 04 6 4 work bcd_tb fast 0
 =1-088fc38c151b-67be755b-d5-a198
 R0
-!s12b OEM100
-!s124 OEM10U9 
-o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work +acc
-Z2 tCvgOpt 0
+Z3 !s12b OEM100
+Z4 !s124 OEM10U9 
+Z5 o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work +acc
+Z6 tCvgOpt 0
 n@_opt
-OL;O;2023.3;77
+Z7 OL;O;2023.3;77
+R1
+T_opt1
+!s110 1741058708
+V9m8DU7cD>mg[eXS6iN^<F0
+R2
+=1-049226c3c2ff-67c67294-111-4ce8
+R0
+R3
+R4
+R5
+R6
+n@_opt1
+R7
 vbcd
-2C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/bcd.v
-Z3 !s110 1740535130
+2C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/bcd.v
+Z8 !s110 1741058707
 !i10b 1
 !s100 KYJeSzaijGk8`94n;:B7D0
-Ii;hi1?1fiSNJ18EKmzOXg0
-R1
-w1740495447
-8C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/bcd.v
-FC:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/bcd.v
+I4AQznAoddMWh]3HNZ2Q1<3
+Z9 dC:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/simulation/questa
+Z10 w1741048213
+8C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/bcd.v
+FC:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/bcd.v
 !i122 2
 L0 1 17
-Z4 VDg1SIo80bB@j0V0VzS_@n1
-Z5 OL;L;2023.3;77
+Z11 VDg1SIo80bB@j0V0VzS_@n1
+Z12 OL;L;2023.3;77
 r1
 !s85 0
 31
-Z6 !s108 1740535130.000000
-!s107 C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/bcd.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD|C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/bcd.v|
+Z13 !s108 1741058707.000000
+!s107 C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/bcd.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/Practica_1_BCD|C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/bcd.v|
 !i113 0
-Z7 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-Z8 !s92 -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R2
+Z14 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -vlog01compat -work work {+incdir+C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/Practica_1_BCD} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R6
 vbcd_tb
-2C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/bcd_tb.sv
+2C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/bcd_tb.sv
 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-R3
+R8
 !i10b 1
 !s100 >5?:@hHN1X@J6Iz[WFbQ62
-IWaMkH_OlG0h5Dhz3AioaT0
+Iz0YL3nZMfDHifCRB0=KnC3
 S1
-R1
-w1740495451
-8C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/bcd_tb.sv
-FC:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/bcd_tb.sv
+R9
+R10
+8C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/bcd_tb.sv
+FC:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/bcd_tb.sv
 !i122 3
 L0 1 33
-R4
-R5
+R11
+R12
 r1
 !s85 0
 31
-R6
-!s107 C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/bcd_tb.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD|C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/bcd_tb.sv|
+R13
+!s107 C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/bcd_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/Practica_1_BCD|C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/bcd_tb.sv|
 !i113 0
 o-sv -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-!s92 -sv -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R2
+!s92 -sv -work work {+incdir+C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/Practica_1_BCD} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R6
 vdecoder_7_seg
-2C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/decoder_7_seg.v
-R3
+2C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/display/decoder_7_seg.v
+R8
 !i10b 1
 !s100 53Lm1[XWJ>??]]FOi[O_:2
-IZF^:3T>=3C94Y4j>hDc4S0
-R1
-w1740460437
-8C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/decoder_7_seg.v
-FC:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/decoder_7_seg.v
+IF];gXSgVb8OkS0YSRB@XI0
+R9
+R10
+8C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/display/decoder_7_seg.v
+FC:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/display/decoder_7_seg.v
 !i122 1
 L0 1 28
-R4
-R5
+R11
+R12
 r1
 !s85 0
 31
-Z9 !s108 1740535129.000000
-!s107 C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/decoder_7_seg.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD|C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/decoder_7_seg.v|
+Z15 !s108 1741058706.000000
+!s107 C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/display/decoder_7_seg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/display|C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/display/decoder_7_seg.v|
 !i113 0
-R7
-R8
-R2
+R14
+Z16 !s92 -vlog01compat -work work {+incdir+C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/display} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R6
 vdisplay_module
-2C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/display_module.v
-!s110 1740535129
+2C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/display/display_module.v
+!s110 1741058706
 !i10b 1
 !s100 b0E^U>lHC5:o3USJBPGzA2
-IFz4?29Q][al=f@D?RNgab0
-R1
-w1740495453
-8C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/display_module.v
-FC:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/display_module.v
+I81]3;FG^IDkFSQ<;K26M^1
+R9
+R10
+8C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/display/display_module.v
+FC:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/display/display_module.v
 !i122 0
 L0 3 53
-R4
-R5
+R11
+R12
 r1
 !s85 0
 31
-R9
-!s107 C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/display_module.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD|C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_1_BCD/display_module.v|
+R15
+!s107 C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/display/display_module.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/display|C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/display/display_module.v|
 !i113 0
-R7
-R8
-R2
+R14
+R16
+R6
