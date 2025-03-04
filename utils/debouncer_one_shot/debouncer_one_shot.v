@@ -1,6 +1,6 @@
 // Combines a debouncer with a one shot logic
 
-module debouncer_one_shot #(INVERT_LOGIC = 0)(
+module debouncer_one_shot #(parameter INVERT_LOGIC = 0)(
     input clk, signal,
     output signal_one_shot
 );

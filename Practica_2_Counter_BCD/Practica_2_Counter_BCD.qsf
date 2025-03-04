@@ -133,10 +133,10 @@ set_location_assignment PIN_B12 -to data_in[5]
 set_location_assignment PIN_A13 -to data_in[6]
 
 
-# Asignación del switch KEY0 como rst_btn
+# Asignación del boton KEY0 como rst_btn
 set_location_assignment PIN_B8 -to rst_btn
 
-# Asignación del switch KEY1 como clear_btn
+# Asignación del boton KEY1 como clear_btn
 set_location_assignment PIN_A7 -to clear_btn
 
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top

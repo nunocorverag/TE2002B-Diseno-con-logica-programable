@@ -1,5 +1,5 @@
 Flow report for Practica_4_PWM
-Wed Feb 26 09:53:29 2025
+Mon Mar  3 23:07:46 2025
 Quartus Prime Version 23.1std.1 Build 993 05/14/2024 SC Lite Edition
 
 
@@ -41,7 +41,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------------+
 ; Flow Summary                                                                        ;
 +------------------------------------+------------------------------------------------+
-; Flow Status                        ; Flow Failed - Wed Feb 26 09:53:29 2025         ;
+; Flow Status                        ; Successful - Mon Mar  3 23:07:46 2025          ;
 ; Quartus Prime Version              ; 23.1std.1 Build 993 05/14/2024 SC Lite Edition ;
 ; Revision Name                      ; Practica_4_PWM                                 ;
 ; Top-level Entity Name              ; pwm                                            ;
@@ -67,60 +67,66 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 02/26/2025 09:53:23 ;
+; Start date & time ; 03/03/2025 23:07:38 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Practica_4_PWM      ;
 +-------------------+---------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                                                ;
-+-------------------------------------+----------------------------------------+----------------+-------------+-----------------------------------+
-; Assignment Name                     ; Value                                  ; Default Value  ; Entity Name ; Section Id                        ;
-+-------------------------------------+----------------------------------------+----------------+-------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID               ; 9413554083099.174058520316620          ; --             ; --          ; --                                ;
-; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --             ; --          ; eda_board_design_timing           ;
-; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --             ; --          ; eda_board_design_boundary_scan    ;
-; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --             ; --          ; eda_board_design_signal_integrity ;
-; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --             ; --          ; eda_board_design_symbol           ;
-; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                            ; --             ; --          ; eda_simulation                    ;
-; EDA_SIMULATION_TOOL                 ; Questa Intel FPGA (Verilog)            ; <None>         ; --          ; --                                ;
-; EDA_TIME_SCALE                      ; 1 ps                                   ; --             ; --          ; eda_simulation                    ;
-; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --             ; --          ; --                                ;
-; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --             ; --          ; --                                ;
-; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --             ; pwm         ; Top                               ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --             ; pwm         ; Top                               ;
-; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --             ; pwm         ; Top                               ;
-; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                    ; --             ; --          ; --                                ;
-; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --             ; --          ; --                                ;
-; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --             ; --          ; --                                ;
-; TOP_LEVEL_ENTITY                    ; pwm                                    ; Practica_4_PWM ; --          ; --                                ;
-+-------------------------------------+----------------------------------------+----------------+-------------+-----------------------------------+
++--------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                 ;
++--------------------------------------+----------------------------------------+----------------+-------------+-----------------------------------+
+; Assignment Name                      ; Value                                  ; Default Value  ; Entity Name ; Section Id                        ;
++--------------------------------------+----------------------------------------+----------------+-------------+-----------------------------------+
+; COMPILER_SIGNATURE_ID                ; 134660529705325.174106485717012        ; --             ; --          ; --                                ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --             ; --          ; pwm_tb                            ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --             ; --          ; eda_board_design_timing           ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --             ; --          ; eda_board_design_boundary_scan    ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --             ; --          ; eda_board_design_signal_integrity ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --             ; --          ; eda_board_design_symbol           ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; pwm_tb                                 ; --             ; --          ; eda_simulation                    ;
+; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                            ; --             ; --          ; eda_simulation                    ;
+; EDA_SIMULATION_TOOL                  ; Questa Intel FPGA (Verilog)            ; <None>         ; --          ; --                                ;
+; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                        ; --             ; --          ; eda_simulation                    ;
+; EDA_TEST_BENCH_FILE                  ; pwm_tb.v                               ; --             ; --          ; pwm_tb                            ;
+; EDA_TEST_BENCH_MODULE_NAME           ; pwm_tb                                 ; --             ; --          ; pwm_tb                            ;
+; EDA_TEST_BENCH_NAME                  ; pwm_tb                                 ; --             ; --          ; eda_simulation                    ;
+; EDA_TIME_SCALE                       ; 1 ps                                   ; --             ; --          ; eda_simulation                    ;
+; MAX_CORE_JUNCTION_TEMP               ; 85                                     ; --             ; --          ; --                                ;
+; MIN_CORE_JUNCTION_TEMP               ; 0                                      ; --             ; --          ; --                                ;
+; PARTITION_COLOR                      ; -- (Not supported for targeted family) ; --             ; pwm         ; Top                               ;
+; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family) ; --             ; pwm         ; Top                               ;
+; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family) ; --             ; pwm         ; Top                               ;
+; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                    ; --             ; --          ; --                                ;
+; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --             ; --          ; --                                ;
+; PROJECT_OUTPUT_DIRECTORY             ; output_files                           ; --             ; --          ; --                                ;
+; TOP_LEVEL_ENTITY                     ; pwm                                    ; Practica_4_PWM ; --          ; --                                ;
++--------------------------------------+----------------------------------------+----------------+-------------+-----------------------------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------+
-; Flow Elapsed Time                                                                                                        ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:06     ; 1.0                     ; 4716 MB             ; 00:00:05                           ;
-; Total                ; 00:00:06     ; --                      ; --                  ; 00:00:05                           ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
++----------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                          ;
++------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Elaboration ; 00:00:09     ; 1.0                     ; 4714 MB             ; 00:00:22                           ;
+; Total                  ; 00:00:09     ; --                      ; --                  ; 00:00:22                           ;
++------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
-+------------------------------------------------------------------------------------+
-; Flow OS Summary                                                                    ;
-+----------------------+------------------+------------+------------+----------------+
-; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
-+----------------------+------------------+------------+------------+----------------+
-; Analysis & Synthesis ; GustavoAcer      ; Windows 10 ; 10.0       ; x86_64         ;
-+----------------------+------------------+------------+------------+----------------+
++--------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                      ;
++------------------------+------------------+------------+------------+----------------+
+; Module Name            ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++------------------------+------------------+------------+------------+----------------+
+; Analysis & Elaboration ; DESKTOP-2UC56KK  ; Windows 10 ; 10.0       ; x86_64         ;
++------------------------+------------------+------------+------------+----------------+
 
 
 ------------
 ; Flow Log ;
 ------------
-quartus_map --read_settings_files=on --write_settings_files=off Practica_4_PWM -c Practica_4_PWM
+quartus_map --read_settings_files=on --write_settings_files=off Practica_4_PWM -c Practica_4_PWM --analysis_and_elaboration
 
 
 

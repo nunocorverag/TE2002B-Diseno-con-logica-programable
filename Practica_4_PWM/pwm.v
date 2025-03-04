@@ -1,4 +1,4 @@
-module pwm (
+module pwm #(parameter FREQ = 1000)(
     input pb_inc, pb_dec, clk, rst,
     output reg pwm_out
 );
@@ -7,7 +7,11 @@ wire clk_div;
 wire one_shot_pc_inc, one_shot_pb_dec;
 
 reg [31:0] DC;
-reg [31:0] X;
+reg [31:0] counter;
+
+parameter MIN_DC = 50_000;  // Minimo - 0°
+parameter MAX_DC = 100_000; // Maximo - 180°
+parameter STEP = 2_500;     // 5°
 
 // Parametros para el duty cycle
 parameter base_freq = 'd10_000_000;
@@ -15,7 +19,11 @@ parameter target_freq = 'd10;
 parameter count = base_freq/target_freq;
 
 // Reducir el reloj
-clock_divider(clk, rst, clk_div);
+clock_divider #(.FREQ(FREQ)) CLK_DIV_INST (
+    .clk(clk), 
+    .rst(rst), 
+    .clk_div(clk_div)
+);
 
 // Debouncer
 debouncer_one_shot #(.INVERT_LOGIC(1)) DEB_ONE_SHOT_PB_INC (
@@ -37,29 +45,36 @@ debouncer_one_shot #(.INVERT_LOGIC(1)) DEB_ONE_SHOT_PB_DEC (
 always @(posedge clk_div or posedge rst)
 begin
     if (rst)
-        DC <= 0;
+		DC <= 75_000; // Posición inicial - 90°
     else if (one_shot_pb_dec)
-        DC <= DC - X;
+        if (DC > MIN_DC) 
+            DC <= DC - STEP;
     else if (one_shot_pc_inc)
-        DC <= DC + X;
+        if (DC < MAX_DC) 
+            DC <= DC + STEP;
 end
 
 // Comparar ciclo de trabajo y el periodo
-always @(posedge clk_div) 
+// Generación de la señal PWM
+
+// Contador de periodo
+always @(posedge clk_div or posedge rst)
 begin
-	begin
-	end
+    if (rst)
+        counter <= 0;
+    else if (counter >= count - 1)
+        counter <= 0;
+    else
+        counter <= counter + 1;
 end
 
-// Generación de la señal PWM
-always @(posedge clk_div)
+always @(posedge clk_div or posedge rst)
 begin
-    if (DC < count / 2)
-        pwm_out <= 1;
-    else
+    if (rst)
         pwm_out <= 0;
+    else
+        pwm_out <= (counter < DC) ? 1 : 0;
 end
-	
 	
 
 endmodule
