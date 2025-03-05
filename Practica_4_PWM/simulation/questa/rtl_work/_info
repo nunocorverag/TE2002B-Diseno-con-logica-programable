@@ -1,8 +1,48 @@
 m255
 K4
 z2
+Z0 !s12c _opt1
+Z1 !s99 nomlopt
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
 !s12c _opt
-Z0 !s99 nomlopt
+R1
 !s11f vlog 2023.3 2023.07, Jul 17 2023
 13
 !s112 1.1
@@ -10,184 +50,197 @@ Z0 !s99 nomlopt
 !i10e 25
 !i10f 100
 cModel Technology
-Z1 dC:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/Practica_4_PWM/simulation/questa
+Z2 dC:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/Practica_4_PWM/simulation/questa
 T_opt
 !s110 1741064898
 V0W<ZjOm:@?G9Q=5oJ85K^0
-04 6 4 work pwm_tb fast 0
+Z3 04 6 4 work pwm_tb fast 0
 =1-049226c3c2ff-67c68ac2-60-3d48
-R0
-!s12b OEM100
-!s124 OEM10U11 
-o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work +acc
-Z2 tCvgOpt 0
-n@_opt
-OL;O;2023.3;77
-vclock_divider
-2C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/clock_divider/clock_divider.v
-!s110 1741064895
-!i10b 1
-!s100 BTGQ2KQU<1hUCdBAAHLFV1
-IngXI<f8P3e;d`M>K8n;NP0
 R1
-Z3 w1741048213
-8C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/clock_divider/clock_divider.v
-FC:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/clock_divider/clock_divider.v
+Z4 !s12b OEM100
+!s124 OEM10U11 
+Z5 o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work +acc
+Z6 tCvgOpt 0
+n@_opt
+Z7 OL;O;2023.3;77
+R2
+T_opt1
+!s110 1741192902
+VY=ARAa@>e2CW`Xi3lihiT2
+R3
+=1-088fc38c151b-67c87ec5-356-5718
+R1
+R4
+!s124 OEM10U15 
+R5
+R6
+n@_opt1
+R7
+vclock_divider
+2C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/clock_divider/clock_divider.v
+!s110 1741192900
+!i10b 1
+!s100 5mH7QZDM]0X_>G>VDRn;o1
+I7XaPnPe?FhH<e<AA]GodC2
+Z8 dC:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_4_PWM/simulation/questa
+w1741180679
+8C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/clock_divider/clock_divider.v
+FC:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/clock_divider/clock_divider.v
 !i122 0
 L0 4 33
-Z4 VDg1SIo80bB@j0V0VzS_@n1
-Z5 OL;L;2023.3;77
+Z9 VDg1SIo80bB@j0V0VzS_@n1
+Z10 OL;L;2023.3;77
 r1
 !s85 0
 31
-Z6 !s108 1741064895.000000
-!s107 C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/clock_divider/clock_divider.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/clock_divider|C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/clock_divider/clock_divider.v|
+Z11 !s108 1741192900.000000
+!s107 C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/clock_divider/clock_divider.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/clock_divider|C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/clock_divider/clock_divider.v|
 !i113 0
-Z7 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-!s92 -vlog01compat -work work {+incdir+C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/clock_divider} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R2
-vcounter_debouncer
-2C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer/counter_debouncer.v
-Z8 !s110 1741064896
-!i10b 1
-!s100 ;hS3YohkMj>KT0`:Vz1Wz1
-I>?:Z@6YhQLM5MRekOEl;z2
-R1
-Z9 w1741058299
-8C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer/counter_debouncer.v
-FC:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer/counter_debouncer.v
-!i122 2
-L0 36 43
-R4
-R5
-r1
-!s85 0
-31
-Z10 !s108 1741064896.000000
-!s107 C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer/counter_debouncer.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer|C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer/counter_debouncer.v|
-!i113 0
-R7
-Z11 !s92 -vlog01compat -work work {+incdir+C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R2
-vdebouncer
-2C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer/debouncer.v
-R8
-!i10b 1
-!s100 M1XIb:;l_`@LdQIFB[NeV0
-Ia1H]P5D;WT_fJ?gAYKj:J2
-R1
-R9
-8C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer/debouncer.v
-FC:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer/debouncer.v
-!i122 1
-L0 20 47
-R4
-R5
-r1
-!s85 0
-31
+Z12 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/clock_divider -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R6
-!s107 C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer/debouncer.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer|C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer/debouncer.v|
-!i113 0
-R7
-R11
-R2
-vdebouncer_one_shot
-2C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer_one_shot.v
-R8
+vcounter_debouncer
+2C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer/counter_debouncer.v
+Z13 !s110 1741192901
 !i10b 1
-!s100 C4Nl5KQ6<CRF9_NTVJBlP2
-IEn@IiH<<dF8J9STH]8d_51
-R1
-w1741063685
-8C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer_one_shot.v
-FC:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer_one_shot.v
-!i122 4
-L0 3 21
-R4
-R5
+!s100 Q`LcA7Qe`S1aS`5W1hA4g2
+I1c2UWhEm]k_LiTc5S?[A>1
+R8
+w1741190693
+8C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer/counter_debouncer.v
+FC:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer/counter_debouncer.v
+!i122 2
+L0 35 34
+R9
+R10
 r1
 !s85 0
 31
-R10
-!s107 C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer_one_shot.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot|C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer_one_shot.v|
+Z14 !s108 1741192901.000000
+!s107 C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer/counter_debouncer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer|C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer/counter_debouncer.v|
 !i113 0
-R7
-!s92 -vlog01compat -work work {+incdir+C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R2
-vone_shot
-2C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/one_shot/one_shot.v
+R12
+Z15 !s92 -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R6
+vdebouncer
+2C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer/debouncer.v
+R13
+!i10b 1
+!s100 ^Czj3HUz6zk_@Y:DKMK=:1
+I]L2<:=eO;@zi3z3WaM6d=3
 R8
+w1741190703
+8C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer/debouncer.v
+FC:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer/debouncer.v
+!i122 1
+L0 19 40
+R9
+R10
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer/debouncer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer|C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer/debouncer.v|
+!i113 0
+R12
+R15
+R6
+vdebouncer_one_shot
+2C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer_one_shot.v
+R13
+!i10b 1
+!s100 c>NNj2]F>ITJIT_GhWWzU1
+I^3_F9HnoPNJD4b3ELUCE<2
+R8
+w1741191006
+8C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer_one_shot.v
+FC:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer_one_shot.v
+!i122 4
+L0 3 20
+R9
+R10
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer_one_shot.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot|C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer_one_shot.v|
+!i113 0
+R12
+!s92 -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R6
+vone_shot
+2C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/one_shot/one_shot.v
+R13
 !i10b 1
 !s100 ez9^2_6]O[l^94a3l=W^d1
-I3lFOb?O3503ed`mm8?5ZL3
-R1
-R3
-8C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/one_shot/one_shot.v
-FC:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/one_shot/one_shot.v
+IReQO>353k`TnZkVK[4`j;3
+R8
+w1741191427
+8C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/one_shot/one_shot.v
+FC:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/one_shot/one_shot.v
 !i122 3
 L0 19 15
-R4
-R5
+R9
+R10
 r1
 !s85 0
 31
-R10
-!s107 C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/one_shot/one_shot.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/one_shot|C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/one_shot/one_shot.v|
+R14
+!s107 C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/one_shot/one_shot.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/one_shot|C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/one_shot/one_shot.v|
 !i113 0
-R7
-!s92 -vlog01compat -work work {+incdir+C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/one_shot} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R2
-vpwm
-2C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/Practica_4_PWM/pwm.v
-R8
-!i10b 1
-!s100 LYD^e`]mgKLmofENQcFo:0
-I=J^8ILPHlf?[FdKlik_cl3
-R1
-w1741063529
-8C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/Practica_4_PWM/pwm.v
-FC:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/Practica_4_PWM/pwm.v
-!i122 5
-L0 1 80
-R4
-R5
-r1
-!s85 0
-31
-R10
-!s107 C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/Practica_4_PWM/pwm.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/Practica_4_PWM|C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/Practica_4_PWM/pwm.v|
-!i113 0
-R7
-Z12 !s92 -vlog01compat -work work {+incdir+C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/Practica_4_PWM} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R2
-vpwm_tb
-2C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/Practica_4_PWM/pwm_tb.v
-R8
-!i10b 1
-!s100 ]zk;:n5N6IWKV57GJCGnf0
-I>U7`Qb7oLeYD7[>V8H3j[1
-R1
-w1741064847
-8C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/Practica_4_PWM/pwm_tb.v
-FC:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/Practica_4_PWM/pwm_tb.v
-!i122 6
-L0 3 56
-R4
-R5
-r1
-!s85 0
-31
-R10
-!s107 C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/Practica_4_PWM/pwm_tb.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/Practica_4_PWM|C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/Practica_4_PWM/pwm_tb.v|
-!i113 0
-R7
 R12
-R2
+!s92 -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/one_shot -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R6
+vpwm
+2C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_4_PWM/pwm.v
+R13
+!i10b 1
+!s100 Q0@g;BB;;KUj9^A;o^QHZ0
+If1M:oG9PFl;C@7<CF<X`^3
+R8
+w1741192688
+8C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_4_PWM/pwm.v
+FC:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_4_PWM/pwm.v
+!i122 5
+L0 1 136
+R9
+R10
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_4_PWM/pwm.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_4_PWM|C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_4_PWM/pwm.v|
+!i113 0
+R12
+Z16 !s92 -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_4_PWM -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R6
+vpwm_tb
+2C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_4_PWM/pwm_tb.v
+R13
+!i10b 1
+!s100 azDT71W_NRfW88O6W1TUT3
+IZET9lWSak;@[lo^Cc>eoJ0
+R8
+w1741190859
+8C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_4_PWM/pwm_tb.v
+FC:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_4_PWM/pwm_tb.v
+!i122 6
+L0 3 57
+R9
+R10
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_4_PWM/pwm_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_4_PWM|C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_4_PWM/pwm_tb.v|
+!i113 0
+R12
+R16
+R6

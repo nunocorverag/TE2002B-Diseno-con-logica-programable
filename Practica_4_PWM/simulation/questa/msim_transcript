@@ -17,125 +17,142 @@
 # if {[file exists rtl_work]} {
 # 	vdel -lib rtl_work -all
 # }
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is Gustavo@DESKTOP-2UC56KK.
 # vlib rtl_work
+# ** Warning: (vlib-34) Library already exists at "rtl_work".
+# Errors: 0, Warnings: 1
 # vmap work rtl_work
 # Questa Intel Starter FPGA Edition-64 vmap 2023.3 Lib Mapping Utility 2023.07 Jul 17 2023
 # vmap work rtl_work 
 # Copying c:/intelfpga_lite/23.1std/questa_fse/win64/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vlog -vlog01compat -work work +incdir+C:/Users/Gustavo/Documents/TEC/Sem\ 4\ 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/clock_divider {C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/clock_divider/clock_divider.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/clock_divider {C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/clock_divider/clock_divider.v}
 # Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
-# Start time: 23:08:15 on Mar 03,2025
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/clock_divider" C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/clock_divider/clock_divider.v 
+# Start time: 10:41:40 on Mar 05,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/clock_divider" C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/clock_divider/clock_divider.v 
 # -- Compiling module clock_divider
 # 
 # Top level modules:
 # 	clock_divider
-# End time: 23:08:15 on Mar 03,2025, Elapsed time: 0:00:00
+# End time: 10:41:40 on Mar 05,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/Gustavo/Documents/TEC/Sem\ 4\ 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer {C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer/debouncer.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer {C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer/debouncer.v}
 # Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
-# Start time: 23:08:15 on Mar 03,2025
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer" C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer/debouncer.v 
+# Start time: 10:41:40 on Mar 05,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer" C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer/debouncer.v 
 # -- Compiling module debouncer
 # 
 # Top level modules:
 # 	debouncer
-# End time: 23:08:16 on Mar 03,2025, Elapsed time: 0:00:01
+# End time: 10:41:41 on Mar 05,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/Gustavo/Documents/TEC/Sem\ 4\ 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer {C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer/counter_debouncer.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer {C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer/counter_debouncer.v}
 # Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
-# Start time: 23:08:16 on Mar 03,2025
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer" C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer/counter_debouncer.v 
+# Start time: 10:41:41 on Mar 05,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer" C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer/counter_debouncer.v 
 # -- Compiling module counter_debouncer
 # 
 # Top level modules:
 # 	counter_debouncer
-# End time: 23:08:16 on Mar 03,2025, Elapsed time: 0:00:00
+# End time: 10:41:41 on Mar 05,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/Gustavo/Documents/TEC/Sem\ 4\ 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/one_shot {C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/one_shot/one_shot.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/one_shot {C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/one_shot/one_shot.v}
 # Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
-# Start time: 23:08:16 on Mar 03,2025
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/one_shot" C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/one_shot/one_shot.v 
+# Start time: 10:41:41 on Mar 05,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/one_shot" C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/one_shot/one_shot.v 
 # -- Compiling module one_shot
 # 
 # Top level modules:
 # 	one_shot
-# End time: 23:08:16 on Mar 03,2025, Elapsed time: 0:00:00
+# End time: 10:41:41 on Mar 05,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/Gustavo/Documents/TEC/Sem\ 4\ 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot {C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer_one_shot.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot {C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer_one_shot.v}
 # Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
-# Start time: 23:08:16 on Mar 03,2025
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot" C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer_one_shot.v 
+# Start time: 10:41:41 on Mar 05,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot" C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer_one_shot.v 
 # -- Compiling module debouncer_one_shot
 # 
 # Top level modules:
 # 	debouncer_one_shot
-# End time: 23:08:16 on Mar 03,2025, Elapsed time: 0:00:00
+# End time: 10:41:41 on Mar 05,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/Gustavo/Documents/TEC/Sem\ 4\ 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/Practica_4_PWM {C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/Practica_4_PWM/pwm.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_4_PWM {C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_4_PWM/pwm.v}
 # Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
-# Start time: 23:08:16 on Mar 03,2025
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/Practica_4_PWM" C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/Practica_4_PWM/pwm.v 
+# Start time: 10:41:41 on Mar 05,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_4_PWM" C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_4_PWM/pwm.v 
 # -- Compiling module pwm
 # 
 # Top level modules:
 # 	pwm
-# End time: 23:08:16 on Mar 03,2025, Elapsed time: 0:00:00
+# End time: 10:41:41 on Mar 05,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vlog -vlog01compat -work work +incdir+C:/Users/Gustavo/Documents/TEC/Sem\ 4\ 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/Practica_4_PWM {C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/Practica_4_PWM/pwm_tb.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_4_PWM {C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_4_PWM/pwm_tb.v}
 # Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
-# Start time: 23:08:16 on Mar 03,2025
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/Practica_4_PWM" C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/Practica_4_PWM/pwm_tb.v 
+# Start time: 10:41:41 on Mar 05,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_4_PWM" C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_4_PWM/pwm_tb.v 
 # -- Compiling module pwm_tb
 # 
 # Top level modules:
 # 	pwm_tb
-# End time: 23:08:16 on Mar 03,2025, Elapsed time: 0:00:00
+# End time: 10:41:41 on Mar 05,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  pwm_tb
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" pwm_tb 
-# Start time: 23:08:16 on Mar 03,2025
+# Start time: 10:41:41 on Mar 05,2025
 # ** Note: (vsim-3812) Design is being optimized...
 # ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# ** Warning: C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_4_PWM/pwm_tb.v(10): (vopt-2685) [TFMPC] - Too few port connections for 'DUT'.  Expected 6, found 5.
+# ** Warning: C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_4_PWM/pwm_tb.v(10): (vopt-2718) [TFMPC] - Missing connection for port 'leds'.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=3.
 # Loading work.pwm_tb(fast)
 # Loading work.pwm(fast)
-# Loading work.clock_divider(fast)
 # Loading work.debouncer_one_shot(fast)
 # Loading work.debouncer(fast)
 # Loading work.counter_debouncer(fast)
 # Loading work.one_shot(fast)
+# Loading work.clock_divider(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'rst'. The port definition is at: C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/clock_divider/clock_divider.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /pwm_tb/DUT/CLOCK_DIVIDER File: C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_4_PWM/pwm.v Line: 43
 # 
 # add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Gustavo  Hostname: DESKTOP-2UC56KK  ProcessID: 15688
+#           Attempting to use alternate WLF file "./wlfttyj6da".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfttyj6da
 # view structure
 # .main_pane.structure.interior.cs.body.struct
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run -all
-# ** Note: $stop    : C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/Practica_4_PWM/pwm_tb.v(55)
-#    Time: 2530 ns  Iteration: 0  Instance: /pwm_tb
-# Break in Module pwm_tb at C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/Practica_4_PWM/pwm_tb.v line 55
-add wave -position insertpoint  \
-sim:/pwm_tb/DUT/CLK_DIV_INST/FREQ \
-sim:/pwm_tb/DUT/CLK_DIV_INST/clk_div
-add wave -position insertpoint  \
-sim:/pwm_tb/DUT/FREQ
+# ** Note: $stop    : C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_4_PWM/pwm_tb.v(56)
+#    Time: 6100 ns  Iteration: 0  Instance: /pwm_tb
+# Break in Module pwm_tb at C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_4_PWM/pwm_tb.v line 56
+add wave -position insertpoint sim:/pwm_tb/DUT/*
+run -all
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Note: (vsim-8009) Loading existing optimized design _opt
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=3.
 # Loading work.pwm_tb(fast)
 # Loading work.pwm(fast)
-# Loading work.clock_divider(fast)
 # Loading work.debouncer_one_shot(fast)
 # Loading work.debouncer(fast)
 # Loading work.counter_debouncer(fast)
 # Loading work.one_shot(fast)
+# Loading work.clock_divider(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'rst'. The port definition is at: C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/clock_divider/clock_divider.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /pwm_tb/DUT/CLOCK_DIVIDER File: C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_4_PWM/pwm.v Line: 43
 run -all
-# ** Note: $stop    : C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/Practica_4_PWM/pwm_tb.v(55)
-#    Time: 2530 ns  Iteration: 0  Instance: /pwm_tb
-# Break in Module pwm_tb at C:/Users/Gustavo/Documents/TEC/Sem 4 2025/TE2002B-Diseno-con-logica-programable/Repositories/TE2002B-Diseno-con-logica-programable/Practica_4_PWM/pwm_tb.v line 55
+# ** Note: $stop    : C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_4_PWM/pwm_tb.v(56)
+#    Time: 6100 ns  Iteration: 0  Instance: /pwm_tb
+# Break in Module pwm_tb at C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_4_PWM/pwm_tb.v line 56
+add wave -position insertpoint  \
+sim:/pwm_tb/DUT/one_shot_pb_inc \
+sim:/pwm_tb/DUT/one_shot_pb_dec \
+sim:/pwm_tb/DUT/one_shot_rst
+# End time: 10:44:41 on Mar 05,2025, Elapsed time: 0:03:00
+# Errors: 0, Warnings: 4

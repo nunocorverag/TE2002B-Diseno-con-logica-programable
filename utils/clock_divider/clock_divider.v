@@ -9,7 +9,7 @@ module clock_divider #(parameter FREQ = 1_000)
 
 // Frecuencia de operacion
 localparam CLK_FREQ = 50_000_000;
-localparam COUNT_MAX = (CLK_FREQ / 2*FREQ);
+localparam COUNT_MAX = (CLK_FREQ / (2*FREQ));
 
 reg [31:0] count; // Esto no falta
 
