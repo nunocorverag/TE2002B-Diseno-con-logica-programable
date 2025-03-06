@@ -10,7 +10,7 @@ wire [7:0] parallel_out;
 wire parity_error;
 
 // instantiate DUT
-receiver #(.INVERT_RST(0), .DEBOUNCE_THRESHOLD(10)) DUT(
+receiver DUT(
 .serial_data_in(serial_data_in),
 .rst(rst),
 .clk(clk),
@@ -67,7 +67,7 @@ endtask // UART_WRITE_BYTE
 
 initial
   begin
-	 parity_type = 0;
+	 parity_type = 1;
     rst = 0;
     # 5000;
     rst = 1;

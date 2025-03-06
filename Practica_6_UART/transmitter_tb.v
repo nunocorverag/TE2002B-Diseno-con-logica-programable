@@ -9,7 +9,7 @@ reg rst = 1;
 reg [1:0] parity_type;
 wire serial_out;
 
-transmitter #(.INVERT_RST(0), .DEBOUNCE_THRESHOLD(10)) DUT(
+transmitter DUT(
     .data(data),
     .send_data(send_data),
     .clk(clk),

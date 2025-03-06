@@ -1,6 +1,11 @@
 // Transmisor
-module transmitter#(parameter INVERT_RST = 0, DEBOUNCE_THRESHOLD = 5000)(
-	input [7:0] data,
+module transmitter#(
+		parameter COUNTS_PER_BIT = 434,
+			DATA_BITS = 8,
+			CLOCK_CTR_WIDTH = 32,
+            D_IDX_WIDTH = (DATA_BITS > 1) ? $clog2(DATA_BITS) : 1 // Que genere al menos 1
+)(
+	input [DATA_BITS-1:0] data,
 	input send_data,
 	input clk,
 	input rst,
@@ -8,14 +13,7 @@ module transmitter#(parameter INVERT_RST = 0, DEBOUNCE_THRESHOLD = 5000)(
 	output reg serial_out
 );
 
-wire one_shot_rst;
-
-localparam base_freq = 50_000_000;
-// Quiero una señal que este a cierto baud rate
-// Quiero saber cuantos ciclos de reloj de 50MHz me dan 115_200
-localparam baudrate = 115_200;
-
-localparam counts_per_bit = base_freq / baudrate;
+localparam counts_per_bit = COUNTS_PER_BIT;
 
 // FALTA EL ESTADO DE PARIDAD
 localparam TX_IDLE = 0;
@@ -25,20 +23,14 @@ localparam TX_PARITY = 3;
 localparam TX_STOP = 4;
 
 reg [2:0] active_state;
-reg [31:0] clock_ctr; // Contador de ciclos
-reg [7:0] d_idx; // Indice de input data para saber que bit estamos usando
 reg [1:0] parity_type_reg; // Registro para alimentar la paridad seleccioanda
 reg parity_bit;        // Bit de paridad calculado
+reg [CLOCK_CTR_WIDTH-1:0] clock_ctr; // Contador
+reg [D_IDX_WIDTH-1:0] d_idx; // Indice de input data para saber que bit estamos usando
 
-debouncer_one_shot #(.INVERT_LOGIC(INVERT_RST), .DEBOUNCE_THRESHOLD(DEBOUNCE_THRESHOLD)) DEB_ONE_SHOT_RST (
-    .clk(clk),
-    .signal(rst),
-    .signal_one_shot(one_shot_rst)
-);
-
-always @(posedge clk or posedge one_shot_rst) 
+always @(posedge clk or posedge rst) 
 	begin
-		if (one_shot_rst) 
+		if (rst) 
 			begin
 				active_state <= TX_IDLE;
 				serial_out <= 1;
