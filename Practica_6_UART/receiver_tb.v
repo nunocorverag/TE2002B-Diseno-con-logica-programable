@@ -47,7 +47,7 @@ task UART_WRITE_BYTE;
     end
   // Send Parity Bit
     if (parity_type == 1 || parity_type == 2)
-      serial_data_in <= 1'b1;
+      serial_data_in <= 1'b0;
       serial_log[9] = serial_data_in; // Store parity bit
       #(c_BIT_PERIOD_NS);
   // Send Stop Bit

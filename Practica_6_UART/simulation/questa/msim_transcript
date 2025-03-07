@@ -24,37 +24,128 @@
 # Copying c:/intelfpga_lite/23.1std/questa_fse/win64/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
+# vlog -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/display {C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/display/display_module.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 17:33:16 on Mar 06,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/display" C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/display/display_module.v 
+# -- Compiling module display_module
+# 
+# Top level modules:
+# 	display_module
+# End time: 17:33:16 on Mar 06,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/display {C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/display/decoder_7_seg.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 17:33:16 on Mar 06,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/display" C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/display/decoder_7_seg.v 
+# -- Compiling module decoder_7_seg
+# 
+# Top level modules:
+# 	decoder_7_seg
+# End time: 17:33:16 on Mar 06,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer {C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer/debouncer.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 17:33:16 on Mar 06,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer" C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer/debouncer.v 
+# -- Compiling module debouncer
+# 
+# Top level modules:
+# 	debouncer
+# End time: 17:33:16 on Mar 06,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer {C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer/counter_debouncer.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 17:33:16 on Mar 06,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer" C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer/counter_debouncer.v 
+# -- Compiling module counter_debouncer
+# 
+# Top level modules:
+# 	counter_debouncer
+# End time: 17:33:16 on Mar 06,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/one_shot {C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/one_shot/one_shot.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 17:33:16 on Mar 06,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/one_shot" C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/one_shot/one_shot.v 
+# -- Compiling module one_shot
+# 
+# Top level modules:
+# 	one_shot
+# End time: 17:33:16 on Mar 06,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot {C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer_one_shot.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 17:33:16 on Mar 06,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot" C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer_one_shot.v 
+# -- Compiling module debouncer_one_shot
+# 
+# Top level modules:
+# 	debouncer_one_shot
+# End time: 17:33:16 on Mar 06,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART {C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/transmitter.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 17:33:16 on Mar 06,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART" C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/transmitter.v 
+# -- Compiling module transmitter
+# 
+# Top level modules:
+# 	transmitter
+# End time: 17:33:16 on Mar 06,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART {C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/receiver.v}
 # Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
-# Start time: 09:58:21 on Mar 06,2025
+# Start time: 17:33:16 on Mar 06,2025
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART" C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/receiver.v 
 # -- Compiling module receiver
 # 
 # Top level modules:
 # 	receiver
-# End time: 09:58:21 on Mar 06,2025, Elapsed time: 0:00:00
+# End time: 17:33:16 on Mar 06,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# 
-# vlog -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART {C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/receiver_tb.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART {C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/uart.v}
 # Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
-# Start time: 09:58:21 on Mar 06,2025
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART" C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/receiver_tb.v 
-# -- Compiling module receiver_tb
+# Start time: 17:33:17 on Mar 06,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART" C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/uart.v 
+# -- Compiling module uart
 # 
 # Top level modules:
-# 	receiver_tb
-# End time: 09:58:21 on Mar 06,2025, Elapsed time: 0:00:00
+# 	uart
+# End time: 17:33:17 on Mar 06,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  receiver_tb
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" receiver_tb 
-# Start time: 09:58:21 on Mar 06,2025
+# vlog -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART {C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/uart_tb.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 17:33:17 on Mar 06,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART" C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/uart_tb.v 
+# -- Compiling module uart_tb
+# 
+# Top level modules:
+# 	uart_tb
+# End time: 17:33:17 on Mar 06,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  uart_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" uart_tb 
+# Start time: 17:33:17 on Mar 06,2025
 # ** Note: (vsim-3812) Design is being optimized...
 # ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
 # ** Note: (vopt-143) Recognized 1 FSM in module "receiver(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "transmitter(fast)".
 # ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
-# Loading work.receiver_tb(fast)
+# Loading work.uart_tb(fast)
+# Loading work.uart(fast)
+# Loading work.debouncer_one_shot(fast)
+# Loading work.debouncer(fast)
+# Loading work.counter_debouncer(fast)
+# Loading work.one_shot(fast)
+# Loading work.debouncer_one_shot(fast__1)
+# Loading work.debouncer(fast__1)
+# Loading work.transmitter(fast)
 # Loading work.receiver(fast)
+# Loading work.display_module(fast)
+# Loading work.decoder_7_seg(fast)
 # 
 # add wave *
 # view structure
@@ -62,45 +153,161 @@
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run -all
-# Tiempo:             15010000 | Enviando Byte: 36 | Parity Type: 1
-# Tiempo:            101810000 | Serial Data Sent: 10110110001
-# Transmission completed successfully at            101810000
-# Tiempo:            115490000 | Enviando Byte: ff | Parity Type: 1
-# Tiempo:            202290000 | Serial Data Sent: 11111111111
-# Transmission completed successfully at            202290000
-# Tiempo:            215970000 | Enviando Byte: fe | Parity Type: 1
-# Tiempo:            302770000 | Serial Data Sent: 10111111111
-# ERROR: Parity Error detected at            302770000
-# Tiempo:            316450000 | Enviando Byte: fd | Parity Type: 1
-# Tiempo:            403250000 | Serial Data Sent: 11011111111
-# ERROR: Parity Error detected at            403250000
-add wave -position insertpoint  \
-sim:/receiver_tb/DUT/parity_type \
-sim:/receiver_tb/DUT/parity_error \
-sim:/receiver_tb/DUT/parallel_out \
-sim:/receiver_tb/DUT/active_state \
-sim:/receiver_tb/DUT/parity_type_reg \
-sim:/receiver_tb/DUT/parity_bit \
-sim:/receiver_tb/DUT/clock_ctr \
-sim:/receiver_tb/DUT/d_idx
-run -all
-run -all
+# 
+# Test 1: Transmisión sin paridad
+# [OK] Tiempo            106800000: Dato correcto a5
+# [OK] Tiempo            106800000: Estado paridad correcto
+# 
+# Test 2: Paridad par (4 bits '1')
+# [OK] Tiempo            212280000: Dato correcto aa
+# [OK] Tiempo            212280000: Estado paridad correcto
+# 
+# Test 3: Paridad par (5 bits '1')
+# [OK] Tiempo            317760000: Dato correcto ab
+# [ERROR] Tiempo            317760000: Error de paridad 0 != Esperado 1
+# 
+# Test 4: Paridad impar (5 bits '1')
+# [OK] Tiempo            423240000: Dato correcto ab
+# [OK] Tiempo            423240000: Estado paridad correcto
+# 
+# Test 5: Paridad impar (4 bits '1')
+# [OK] Tiempo            528720000: Dato correcto aa
+# [ERROR] Tiempo            528720000: Error de paridad 0 != Esperado 1
+# 
+# Simulación completada
+# ** Note: $stop    : C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/uart_tb.v(161)
+#    Time: 528820 ns  Iteration: 0  Instance: /uart_tb
+# Break in Module uart_tb at C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/uart_tb.v line 161
+view -new wave
+# .main_pane.wave1.interior.cs.body.pw.wf
+do C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/simulation/questa/wave_rx.do
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/receiver_tb/rst'.
+# Executing ONERROR command at macro C:\Users\gnuno\OneDrive\Documentos\Tec\4to\logica_programable\TE2002B-Diseno-con-logica-programable\Practica_6_UART\simulation\questa\wave_rx.do line 3
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/receiver_tb/clk'.
+# Executing ONERROR command at macro C:\Users\gnuno\OneDrive\Documentos\Tec\4to\logica_programable\TE2002B-Diseno-con-logica-programable\Practica_6_UART\simulation\questa\wave_rx.do line 4
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/receiver_tb/serial_data_in'.
+# Executing ONERROR command at macro C:\Users\gnuno\OneDrive\Documentos\Tec\4to\logica_programable\TE2002B-Diseno-con-logica-programable\Practica_6_UART\simulation\questa\wave_rx.do line 5
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/receiver_tb/parity_type'.
+# Executing ONERROR command at macro C:\Users\gnuno\OneDrive\Documentos\Tec\4to\logica_programable\TE2002B-Diseno-con-logica-programable\Practica_6_UART\simulation\questa\wave_rx.do line 6
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/receiver_tb/parallel_out'.
+# Executing ONERROR command at macro C:\Users\gnuno\OneDrive\Documentos\Tec\4to\logica_programable\TE2002B-Diseno-con-logica-programable\Practica_6_UART\simulation\questa\wave_rx.do line 7
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/receiver_tb/parity_error'.
+# Executing ONERROR command at macro C:\Users\gnuno\OneDrive\Documentos\Tec\4to\logica_programable\TE2002B-Diseno-con-logica-programable\Practica_6_UART\simulation\questa\wave_rx.do line 8
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/receiver_tb/rst'.
+# Executing ONERROR command at macro C:\Users\gnuno\OneDrive\Documentos\Tec\4to\logica_programable\TE2002B-Diseno-con-logica-programable\Practica_6_UART\simulation\questa\wave_rx.do line 9
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/receiver_tb/clk'.
+# Executing ONERROR command at macro C:\Users\gnuno\OneDrive\Documentos\Tec\4to\logica_programable\TE2002B-Diseno-con-logica-programable\Practica_6_UART\simulation\questa\wave_rx.do line 10
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/receiver_tb/serial_data_in'.
+# Executing ONERROR command at macro C:\Users\gnuno\OneDrive\Documentos\Tec\4to\logica_programable\TE2002B-Diseno-con-logica-programable\Practica_6_UART\simulation\questa\wave_rx.do line 11
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/receiver_tb/parity_type'.
+# Executing ONERROR command at macro C:\Users\gnuno\OneDrive\Documentos\Tec\4to\logica_programable\TE2002B-Diseno-con-logica-programable\Practica_6_UART\simulation\questa\wave_rx.do line 12
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/receiver_tb/parallel_out'.
+# Executing ONERROR command at macro C:\Users\gnuno\OneDrive\Documentos\Tec\4to\logica_programable\TE2002B-Diseno-con-logica-programable\Practica_6_UART\simulation\questa\wave_rx.do line 13
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/receiver_tb/parity_error'.
+# Executing ONERROR command at macro C:\Users\gnuno\OneDrive\Documentos\Tec\4to\logica_programable\TE2002B-Diseno-con-logica-programable\Practica_6_UART\simulation\questa\wave_rx.do line 14
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/receiver_tb/DUT/one_shot_rst'.
+# Executing ONERROR command at macro C:\Users\gnuno\OneDrive\Documentos\Tec\4to\logica_programable\TE2002B-Diseno-con-logica-programable\Practica_6_UART\simulation\questa\wave_rx.do line 15
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/receiver_tb/DUT/active_state'.
+# Executing ONERROR command at macro C:\Users\gnuno\OneDrive\Documentos\Tec\4to\logica_programable\TE2002B-Diseno-con-logica-programable\Practica_6_UART\simulation\questa\wave_rx.do line 16
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/receiver_tb/DUT/clock_ctr'.
+# Executing ONERROR command at macro C:\Users\gnuno\OneDrive\Documentos\Tec\4to\logica_programable\TE2002B-Diseno-con-logica-programable\Practica_6_UART\simulation\questa\wave_rx.do line 17
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/receiver_tb/DUT/d_idx'.
+# Executing ONERROR command at macro C:\Users\gnuno\OneDrive\Documentos\Tec\4to\logica_programable\TE2002B-Diseno-con-logica-programable\Practica_6_UART\simulation\questa\wave_rx.do line 18
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/receiver_tb/DUT/parity_type_reg'.
+# Executing ONERROR command at macro C:\Users\gnuno\OneDrive\Documentos\Tec\4to\logica_programable\TE2002B-Diseno-con-logica-programable\Practica_6_UART\simulation\questa\wave_rx.do line 19
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/receiver_tb/DUT/parity_bit'.
+# Executing ONERROR command at macro C:\Users\gnuno\OneDrive\Documentos\Tec\4to\logica_programable\TE2002B-Diseno-con-logica-programable\Practica_6_UART\simulation\questa\wave_rx.do line 20
+do C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/simulation/questa/uart_complete.do
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/uart_tb/parallel_out'.
+# Executing ONERROR command at macro C:\Users\gnuno\OneDrive\Documentos\Tec\4to\logica_programable\TE2002B-Diseno-con-logica-programable\Practica_6_UART\simulation\questa\uart_complete.do line 8
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
 # ** Note: (vsim-8009) Loading existing optimized design _opt
 # ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
-# Loading work.receiver_tb(fast)
+# Loading work.uart_tb(fast)
+# Loading work.uart(fast)
+# Loading work.debouncer_one_shot(fast)
+# Loading work.debouncer(fast)
+# Loading work.counter_debouncer(fast)
+# Loading work.one_shot(fast)
+# Loading work.debouncer_one_shot(fast__1)
+# Loading work.debouncer(fast__1)
+# Loading work.transmitter(fast)
 # Loading work.receiver(fast)
+# Loading work.display_module(fast)
+# Loading work.decoder_7_seg(fast)
 run -all
-# Tiempo:             15010000 | Enviando Byte: 36 | Parity Type: 1
-# Tiempo:            101810000 | Serial Data Sent: 10110110001
-# Transmission completed successfully at            101810000
-# Tiempo:            115490000 | Enviando Byte: ff | Parity Type: 1
-# Tiempo:            202290000 | Serial Data Sent: 11111111111
-# Transmission completed successfully at            202290000
-# Tiempo:            215970000 | Enviando Byte: fe | Parity Type: 1
-# Tiempo:            302770000 | Serial Data Sent: 10111111111
-# ERROR: Parity Error detected at            302770000
-# Tiempo:            316450000 | Enviando Byte: fd | Parity Type: 1
-# Tiempo:            403250000 | Serial Data Sent: 11011111111
-# ERROR: Parity Error detected at            403250000
+# 
+# Test 1: Transmisión sin paridad
+# [OK] Tiempo            106800000: Dato correcto a5
+# [OK] Tiempo            106800000: Estado paridad correcto
+# 
+# Test 2: Paridad par (4 bits '1')
+# [OK] Tiempo            212280000: Dato correcto aa
+# [OK] Tiempo            212280000: Estado paridad correcto
+# 
+# Test 3: Paridad par (5 bits '1')
+# [OK] Tiempo            317760000: Dato correcto ab
+# [ERROR] Tiempo            317760000: Error de paridad 0 != Esperado 1
+# 
+# Test 4: Paridad impar (5 bits '1')
+# [OK] Tiempo            423240000: Dato correcto ab
+# [OK] Tiempo            423240000: Estado paridad correcto
+# 
+# Test 5: Paridad impar (4 bits '1')
+# [OK] Tiempo            528720000: Dato correcto aa
+# [ERROR] Tiempo            528720000: Error de paridad 0 != Esperado 1
+# 
+# Simulación completada
+# ** Note: $stop    : C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/uart_tb.v(161)
+#    Time: 528820 ns  Iteration: 0  Instance: /uart_tb
+# Break in Module uart_tb at C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/uart_tb.v line 161
+# Error Undo Start called while in Redo capture mode
+add wave -position insertpoint sim:/uart_tb/dut/DISPLAY_MODULE/*
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.uart_tb(fast)
+# Loading work.uart(fast)
+# Loading work.debouncer_one_shot(fast)
+# Loading work.debouncer(fast)
+# Loading work.counter_debouncer(fast)
+# Loading work.one_shot(fast)
+# Loading work.debouncer_one_shot(fast__1)
+# Loading work.debouncer(fast__1)
+# Loading work.transmitter(fast)
+# Loading work.receiver(fast)
+# Loading work.display_module(fast)
+# Loading work.decoder_7_seg(fast)
+run -all
+# 
+# Test 1: Transmisión sin paridad
+# [OK] Tiempo            106800000: Dato correcto a5
+# [OK] Tiempo            106800000: Estado paridad correcto
+# 
+# Test 2: Paridad par (4 bits '1')
+# [OK] Tiempo            212280000: Dato correcto aa
+# [OK] Tiempo            212280000: Estado paridad correcto
+# 
+# Test 3: Paridad par (5 bits '1')
+# [OK] Tiempo            317760000: Dato correcto ab
+# [ERROR] Tiempo            317760000: Error de paridad 0 != Esperado 1
+# 
+# Test 4: Paridad impar (5 bits '1')
+# [OK] Tiempo            423240000: Dato correcto ab
+# [OK] Tiempo            423240000: Estado paridad correcto
+# 
+# Test 5: Paridad impar (4 bits '1')
+# [OK] Tiempo            528720000: Dato correcto aa
+# [ERROR] Tiempo            528720000: Error de paridad 0 != Esperado 1
+# 
+# Simulación completada
+# ** Note: $stop    : C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/uart_tb.v(161)
+#    Time: 528820 ns  Iteration: 0  Instance: /uart_tb
+# Break in Module uart_tb at C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/uart_tb.v line 161
+add wave -position insertpoint  \
+sim:/uart_tb/dut/data
+add wave -position insertpoint  \
+sim:/uart_tb/data
+write format wave -window .main_pane.wave1.interior.cs.body.pw.wf C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/simulation/questa/uart_complete.do

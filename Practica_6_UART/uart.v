@@ -29,7 +29,6 @@ wire one_shot_rst, one_shot_send_data;
 // Receiver
 wire [DATA_BITS-1:0] parallel_out;
 wire parity_error;
-wire start_send_data;
 
 localparam COUNTS_PER_BIT = BASE_FREQ / BAUDRATE;
 
@@ -44,8 +43,6 @@ debouncer_one_shot #(.INVERT_LOGIC(INVERT_SEND_DATA), .DEBOUNCE_THRESHOLD(DEBOUN
     .signal(send_data),
     .signal_one_shot(one_shot_send_data)
 );
-
-assign start_send_data = ~one_shot_send_data;
 
 always @(posedge clk or posedge one_shot_rst) begin
     if (one_shot_rst)
@@ -73,7 +70,7 @@ end
 
 transmitter #(.COUNTS_PER_BIT(COUNTS_PER_BIT), .DATA_BITS(DATA_BITS), .CLOCK_CTR_WIDTH(CLOCK_CTR_WIDTH)) UART_TX(
 	.data(data),
-	.send_data(start_send_data),
+	.send_data(one_shot_send_data),
 	.clk(clk),
 	.rst(one_shot_rst),
 	.parity_type(parity_type), // 0: Sin paridad, 1: Paridad impar, 2: Paridad par

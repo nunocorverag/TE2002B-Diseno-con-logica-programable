@@ -38,7 +38,7 @@ always @(posedge clk or posedge rst)
 		if (rst) 
 			begin
 				active_state <= RX_IDLE;
-				parallel_out <= 1;
+				parallel_out <= 0;
 				clock_ctr <= 0;
 				d_idx <= 0;
 				parity_type_reg <= 0;
