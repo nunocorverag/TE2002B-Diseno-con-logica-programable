@@ -166,3 +166,5 @@ run -all
 # ** Note: $stop    : C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_4_Password/password_top_tb.v(123)
 #    Time: 150 us  Iteration: 0  Instance: /password_top_tb
 # Break in Module password_top_tb at C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_4_Password/password_top_tb.v line 123
+# End time: 23:57:50 on Mar 06,2025, Elapsed time: 0:03:30
+# Errors: 0, Warnings: 1

@@ -26,7 +26,7 @@ genvar i;
 generate
     for (i = 0; i < 10 ; i = i + 1) 
     begin : debouncer_gen
-        debouncer_one_shot #(.INVERT_LOGIC(INVERT_RST), .DEBOUNCE_THRESHOLD(DEBOUNCE_THRESHOLD)) DEB_ONE_SHOT_SW(
+        debouncer_one_shot #(.INVERT_LOGIC(INVERT_SW), .DEBOUNCE_THRESHOLD(DEBOUNCE_THRESHOLD)) DEB_ONE_SHOT_SW(
             .clk(clk),
             .signal(sw[i]),
             .signal_one_shot(sw_one_shot[i])

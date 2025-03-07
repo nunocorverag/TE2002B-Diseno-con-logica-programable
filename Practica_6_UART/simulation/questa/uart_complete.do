@@ -8,31 +8,31 @@ add wave -noupdate /uart_tb/parity_type
 add wave -noupdate /uart_tb/serial_out
 add wave -noupdate -radix binary /uart_tb/leds
 add wave -noupdate -divider Display
-add wave -noupdate -radix ufixed /uart_tb/dut/DISPLAY_MODULE/number
-add wave -noupdate -radix ufixed /uart_tb/dut/DISPLAY_MODULE/centenas_millares_wire
-add wave -noupdate -radix ufixed /uart_tb/dut/DISPLAY_MODULE/decenas_millares_wire
-add wave -noupdate -radix ufixed /uart_tb/dut/DISPLAY_MODULE/millares_wire
-add wave -noupdate -radix ufixed /uart_tb/dut/DISPLAY_MODULE/centenas_wire
-add wave -noupdate -radix ufixed /uart_tb/dut/DISPLAY_MODULE/decenas_wire
-add wave -noupdate -radix ufixed /uart_tb/dut/DISPLAY_MODULE/unidades_wire
+add wave -noupdate -radix ufixed /uart_tb/DUT/DISPLAY_MODULE/number
+add wave -noupdate -radix ufixed /uart_tb/DUT/DISPLAY_MODULE/centenas_millares_wire
+add wave -noupdate -radix ufixed /uart_tb/DUT/DISPLAY_MODULE/decenas_millares_wire
+add wave -noupdate -radix ufixed /uart_tb/DUT/DISPLAY_MODULE/millares_wire
+add wave -noupdate -radix ufixed /uart_tb/DUT/DISPLAY_MODULE/centenas_wire
+add wave -noupdate -radix ufixed /uart_tb/DUT/DISPLAY_MODULE/decenas_wire
+add wave -noupdate -radix ufixed /uart_tb/DUT/DISPLAY_MODULE/unidades_wire
 add wave -noupdate -divider Signals
 add wave -noupdate /uart_tb/send_data
-add wave -noupdate /uart_tb/dut/one_shot_rst
-add wave -noupdate /uart_tb/dut/one_shot_send_data
+add wave -noupdate /uart_tb/DUT/one_shot_rst
+add wave -noupdate /uart_tb/DUT/one_shot_send_data
 add wave -noupdate -divider Transmitter
-add wave -noupdate /uart_tb/dut/UART_TX/serial_out
-add wave -noupdate /uart_tb/dut/UART_TX/active_state
-add wave -noupdate /uart_tb/dut/UART_TX/parity_bit
-add wave -noupdate -radix ufixed /uart_tb/dut/UART_TX/clock_ctr
-add wave -noupdate /uart_tb/dut/UART_TX/d_idx
+add wave -noupdate /uart_tb/DUT/UART_TX/serial_out
+add wave -noupdate /uart_tb/DUT/UART_TX/active_state
+add wave -noupdate /uart_tb/DUT/UART_TX/parity_bit
+add wave -noupdate -radix ufixed /uart_tb/DUT/UART_TX/clock_ctr
+add wave -noupdate /uart_tb/DUT/UART_TX/d_idx
 add wave -noupdate -divider Receiver
-add wave -noupdate /uart_tb/dut/UART_RX/serial_data_in
-add wave -noupdate /uart_tb/dut/UART_RX/parity_error
-add wave -noupdate /uart_tb/dut/UART_RX/parallel_out
-add wave -noupdate /uart_tb/dut/UART_RX/active_state
-add wave -noupdate /uart_tb/dut/UART_RX/parity_bit
-add wave -noupdate -radix ufixed /uart_tb/dut/UART_RX/clock_ctr
-add wave -noupdate /uart_tb/dut/UART_RX/d_idx
+add wave -noupdate /uart_tb/DUT/UART_RX/serial_data_in
+add wave -noupdate /uart_tb/DUT/UART_RX/parity_error
+add wave -noupdate /uart_tb/DUT/UART_RX/parallel_out
+add wave -noupdate /uart_tb/DUT/UART_RX/active_state
+add wave -noupdate /uart_tb/DUT/UART_RX/parity_bit
+add wave -noupdate -radix ufixed /uart_tb/DUT/UART_RX/clock_ctr
+add wave -noupdate /uart_tb/DUT/UART_RX/d_idx
 TreeUpdate [SetDefaultTree]
 WaveRestoreCursors {{Cursor 1} {92568379 ps} 0}
 quietly wave cursor active 1

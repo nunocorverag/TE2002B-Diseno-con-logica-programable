@@ -76,18 +76,18 @@ task automatic check_result;
     input expected_error;
     begin
         // Acceso a las señales internas usando jerarquía de nombres
-        if(dut.parallel_out !== expected_data) begin
+        if(DUT.parallel_out !== expected_data) begin
             $display("[ERROR] Tiempo %t: Dato recibido %h != Esperado %h",
-                    $time, dut.parallel_out, expected_data);
+                    $time, DUT.parallel_out, expected_data);
         end
         else begin
             $display("[OK] Tiempo %t: Dato correcto %h",
-                    $time, dut.parallel_out);
+                    $time, DUT.parallel_out);
         end
         
-        if(dut.parity_error !== expected_error) begin
+        if(DUT.parity_error !== expected_error) begin
             $display("[ERROR] Tiempo %t: Error de paridad %b != Esperado %b",
-                    $time, dut.parity_error, expected_error);
+                    $time, DUT.parity_error, expected_error);
         end
         else begin
             $display("[OK] Tiempo %t: Estado paridad correcto",
