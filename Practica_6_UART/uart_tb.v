@@ -25,7 +25,7 @@ wire [9:0] leds;
 // Instancia del módulo UART con parámetros adaptados
 uart #(
     .DEBOUNCE_THRESHOLD(DEBOUNCE_TB), .INVERT_RST(0), .INVERT_SEND_DATA(1)
-) dut (
+) DUT (
     .clk(clk),
     .rst(rst),
     .parity_type(parity_type),

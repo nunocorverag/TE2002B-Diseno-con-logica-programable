@@ -311,3 +311,5 @@ sim:/uart_tb/dut/data
 add wave -position insertpoint  \
 sim:/uart_tb/data
 write format wave -window .main_pane.wave1.interior.cs.body.pw.wf C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/simulation/questa/uart_complete.do
+# End time: 19:27:01 on Mar 06,2025, Elapsed time: 1:53:44
+# Errors: 0, Warnings: 1
