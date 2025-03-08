@@ -77,7 +77,6 @@ set_global_assignment -name VERILOG_FILE receiver.v
 set_global_assignment -name VERILOG_FILE receiver_tb.v
 set_global_assignment -name VERILOG_FILE uart.v
 
-
 # Asignaciones para el display de 7 segmentos de unidades
 set_location_assignment PIN_C14 -to D_unidades[0]
 set_location_assignment PIN_E15 -to D_unidades[1]

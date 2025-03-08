@@ -15,7 +15,7 @@ module uart #(
     // Transmitter
     input [DATA_BITS-1:0] data,
     input send_data, 
-    output serial_out,
+    output serial_out,//tx
 
     // Receiver
 	input serial_data_in,

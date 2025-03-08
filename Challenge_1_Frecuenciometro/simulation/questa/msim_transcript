@@ -1,0 +1,321 @@
+# Reading pref.tcl
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2023.3 win64 Jul 17 2023
+# //
+# //  Copyright 1991-2023 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do Challenge_1_Frecuenciometro_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Questa Intel Starter FPGA Edition-64 vmap 2023.3 Lib Mapping Utility 2023.07 Jul 17 2023
+# vmap work rtl_work 
+# Copying c:/intelfpga_lite/23.1std/questa_fse/win64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/display {C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/display/display_module.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:58:42 on Mar 07,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/display" C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/display/display_module.v 
+# -- Compiling module display_module
+# 
+# Top level modules:
+# 	display_module
+# End time: 18:58:42 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/display {C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/display/decoder_7_seg.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:58:42 on Mar 07,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/display" C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/display/decoder_7_seg.v 
+# -- Compiling module decoder_7_seg
+# 
+# Top level modules:
+# 	decoder_7_seg
+# End time: 18:58:42 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer {C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer/debouncer.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:58:42 on Mar 07,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer" C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer/debouncer.v 
+# -- Compiling module debouncer
+# 
+# Top level modules:
+# 	debouncer
+# End time: 18:58:42 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer {C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer/counter_debouncer.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:58:42 on Mar 07,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer" C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer/counter_debouncer.v 
+# -- Compiling module counter_debouncer
+# 
+# Top level modules:
+# 	counter_debouncer
+# End time: 18:58:43 on Mar 07,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/one_shot {C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/one_shot/one_shot.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:58:43 on Mar 07,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/one_shot" C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/one_shot/one_shot.v 
+# -- Compiling module one_shot
+# 
+# Top level modules:
+# 	one_shot
+# End time: 18:58:43 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot {C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer_one_shot.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:58:43 on Mar 07,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot" C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer_one_shot.v 
+# -- Compiling module debouncer_one_shot
+# 
+# Top level modules:
+# 	debouncer_one_shot
+# End time: 18:58:43 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Challenge_1_Frecuenciometro {C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Challenge_1_Frecuenciometro/frequency_meter.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:58:43 on Mar 07,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Challenge_1_Frecuenciometro" C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Challenge_1_Frecuenciometro/frequency_meter.v 
+# -- Compiling module frequency_meter
+# 
+# Top level modules:
+# 	frequency_meter
+# End time: 18:58:43 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Challenge_1_Frecuenciometro {C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Challenge_1_Frecuenciometro/synchronizer.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:58:43 on Mar 07,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Challenge_1_Frecuenciometro" C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Challenge_1_Frecuenciometro/synchronizer.v 
+# -- Compiling module synchronizer
+# 
+# Top level modules:
+# 	synchronizer
+# End time: 18:58:43 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Challenge_1_Frecuenciometro {C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Challenge_1_Frecuenciometro/edge_detector.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:58:43 on Mar 07,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Challenge_1_Frecuenciometro" C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Challenge_1_Frecuenciometro/edge_detector.v 
+# -- Compiling module edge_detector
+# 
+# Top level modules:
+# 	edge_detector
+# End time: 18:58:43 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Challenge_1_Frecuenciometro {C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Challenge_1_Frecuenciometro/period_capture.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:58:43 on Mar 07,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Challenge_1_Frecuenciometro" C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Challenge_1_Frecuenciometro/period_capture.v 
+# -- Compiling module period_capture
+# 
+# Top level modules:
+# 	period_capture
+# End time: 18:58:43 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Challenge_1_Frecuenciometro {C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Challenge_1_Frecuenciometro/frequency_calculator.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:58:43 on Mar 07,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Challenge_1_Frecuenciometro" C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Challenge_1_Frecuenciometro/frequency_calculator.v 
+# -- Compiling module frequency_calculator
+# 
+# Top level modules:
+# 	frequency_calculator
+# End time: 18:58:43 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Challenge_1_Frecuenciometro {C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Challenge_1_Frecuenciometro/frequency_meter_tb.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:58:43 on Mar 07,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Challenge_1_Frecuenciometro" C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Challenge_1_Frecuenciometro/frequency_meter_tb.v 
+# -- Compiling module frequency_meter_tb
+# 
+# Top level modules:
+# 	frequency_meter_tb
+# End time: 18:58:43 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  frequency_meter_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" frequency_meter_tb 
+# Start time: 18:58:43 on Mar 07,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.frequency_meter_tb(fast)
+# Loading work.frequency_meter(fast)
+# Loading work.debouncer_one_shot(fast)
+# Loading work.debouncer(fast)
+# Loading work.counter_debouncer(fast)
+# Loading work.one_shot(fast)
+# Loading work.synchronizer(fast)
+# Loading work.edge_detector(fast)
+# Loading work.period_capture(fast)
+# Loading work.frequency_calculator(fast)
+# Loading work.display_module(fast)
+# Loading work.decoder_7_seg(fast)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Time: 0 | signal_in: 0 | Frecuencia detectada:       x Hz
+# Time: 5250000 | signal_in: 0 | Frecuencia detectada:       0 Hz
+# Time: 510000000 | signal_in: 1 | Frecuencia detectada:       0 Hz
+# Time: 1010000000 | signal_in: 0 | Frecuencia detectada:       0 Hz
+# Time: 1510000000 | signal_in: 1 | Frecuencia detectada:       0 Hz
+# Time: 1510070000 | signal_in: 1 | Frecuencia detectada:    1000 Hz
+# Time: 2010000000 | signal_in: 0 | Frecuencia detectada:    1000 Hz
+# Time: 2510000000 | signal_in: 1 | Frecuencia detectada:    1000 Hz
+# Time: 3010000000 | signal_in: 0 | Frecuencia detectada:    1000 Hz
+# Time: 3510000000 | signal_in: 1 | Frecuencia detectada:    1000 Hz
+# Time: 4010000000 | signal_in: 0 | Frecuencia detectada:    1000 Hz
+# Time: 4510000000 | signal_in: 1 | Frecuencia detectada:    1000 Hz
+# Time: 5010000000 | signal_in: 0 | Frecuencia detectada:    1000 Hz
+# Time: 5060000000 | signal_in: 1 | Frecuencia detectada:    1000 Hz
+# Time: 5060070000 | signal_in: 1 | Frecuencia detectada:    1818 Hz
+# Time: 5110000000 | signal_in: 0 | Frecuencia detectada:    1818 Hz
+# Time: 5160000000 | signal_in: 1 | Frecuencia detectada:    1818 Hz
+# Time: 5160070000 | signal_in: 1 | Frecuencia detectada:   10000 Hz
+# Time: 5210000000 | signal_in: 0 | Frecuencia detectada:   10000 Hz
+# Time: 5260000000 | signal_in: 1 | Frecuencia detectada:   10000 Hz
+# Time: 5310000000 | signal_in: 0 | Frecuencia detectada:   10000 Hz
+# Time: 5360000000 | signal_in: 1 | Frecuencia detectada:   10000 Hz
+# Time: 5410000000 | signal_in: 0 | Frecuencia detectada:   10000 Hz
+# Time: 5460000000 | signal_in: 1 | Frecuencia detectada:   10000 Hz
+# Time: 5510000000 | signal_in: 0 | Frecuencia detectada:   10000 Hz
+# Time: 5515000000 | signal_in: 1 | Frecuencia detectada:   10000 Hz
+# Time: 5515070000 | signal_in: 1 | Frecuencia detectada:   18181 Hz
+# Time: 5520000000 | signal_in: 0 | Frecuencia detectada:   18181 Hz
+# Time: 5525000000 | signal_in: 1 | Frecuencia detectada:   18181 Hz
+# Time: 5525070000 | signal_in: 1 | Frecuencia detectada:  100000 Hz
+# Time: 5530000000 | signal_in: 0 | Frecuencia detectada:  100000 Hz
+# Time: 5535000000 | signal_in: 1 | Frecuencia detectada:  100000 Hz
+# Time: 5540000000 | signal_in: 0 | Frecuencia detectada:  100000 Hz
+# Time: 5545000000 | signal_in: 1 | Frecuencia detectada:  100000 Hz
+# Time: 5550000000 | signal_in: 0 | Frecuencia detectada:  100000 Hz
+# Time: 5555000000 | signal_in: 1 | Frecuencia detectada:  100000 Hz
+# Time: 5560000000 | signal_in: 0 | Frecuencia detectada:  100000 Hz
+# Time: 5565000000 | signal_in: 1 | Frecuencia detectada:  100000 Hz
+# Time: 5570000000 | signal_in: 0 | Frecuencia detectada:  100000 Hz
+# Time: 5575000000 | signal_in: 1 | Frecuencia detectada:  100000 Hz
+# Time: 5580000000 | signal_in: 0 | Frecuencia detectada:  100000 Hz
+# Time: 5585000000 | signal_in: 1 | Frecuencia detectada:  100000 Hz
+# Time: 5590000000 | signal_in: 0 | Frecuencia detectada:  100000 Hz
+# Time: 5595000000 | signal_in: 1 | Frecuencia detectada:  100000 Hz
+# Time: 5600000000 | signal_in: 0 | Frecuencia detectada:  100000 Hz
+# Time: 5605000000 | signal_in: 1 | Frecuencia detectada:  100000 Hz
+# Time: 5610000000 | signal_in: 0 | Frecuencia detectada:  100000 Hz
+# ** Note: $stop    : C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Challenge_1_Frecuenciometro/frequency_meter_tb.v(57)
+#    Time: 6610 us  Iteration: 0  Instance: /frequency_meter_tb
+# Break in Module frequency_meter_tb at C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Challenge_1_Frecuenciometro/frequency_meter_tb.v line 57
+view -new wave
+# .main_pane.wave1.interior.cs.body.pw.wf
+do C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Challenge_1_Frecuenciometro/simulation/questa/frecuenciometro_signal.do
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.frequency_meter_tb(fast)
+# Loading work.frequency_meter(fast)
+# Loading work.debouncer_one_shot(fast)
+# Loading work.debouncer(fast)
+# Loading work.counter_debouncer(fast)
+# Loading work.one_shot(fast)
+# Loading work.synchronizer(fast)
+# Loading work.edge_detector(fast)
+# Loading work.period_capture(fast)
+# Loading work.frequency_calculator(fast)
+# Loading work.display_module(fast)
+# Loading work.decoder_7_seg(fast)
+run -all
+# Time: 0 | signal_in: 0 | Frecuencia detectada:       x Hz
+# Time: 5250000 | signal_in: 0 | Frecuencia detectada:       0 Hz
+# Time: 510000000 | signal_in: 1 | Frecuencia detectada:       0 Hz
+# Time: 1010000000 | signal_in: 0 | Frecuencia detectada:       0 Hz
+# Time: 1510000000 | signal_in: 1 | Frecuencia detectada:       0 Hz
+# Time: 1510070000 | signal_in: 1 | Frecuencia detectada:    1000 Hz
+# Time: 2010000000 | signal_in: 0 | Frecuencia detectada:    1000 Hz
+# Time: 2510000000 | signal_in: 1 | Frecuencia detectada:    1000 Hz
+# Time: 3010000000 | signal_in: 0 | Frecuencia detectada:    1000 Hz
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.frequency_meter_tb(fast)
+# Loading work.frequency_meter(fast)
+# Loading work.debouncer_one_shot(fast)
+# Loading work.debouncer(fast)
+# Loading work.counter_debouncer(fast)
+# Loading work.one_shot(fast)
+# Loading work.synchronizer(fast)
+# Loading work.edge_detector(fast)
+# Loading work.period_capture(fast)
+# Loading work.frequency_calculator(fast)
+# Loading work.display_module(fast)
+# Loading work.decoder_7_seg(fast)
+run -all
+# Time: 0 | signal_in: 0 | Frecuencia detectada:       x Hz
+# Time: 5250000 | signal_in: 0 | Frecuencia detectada:       0 Hz
+# Time: 510000000 | signal_in: 1 | Frecuencia detectada:       0 Hz
+# Time: 1010000000 | signal_in: 0 | Frecuencia detectada:       0 Hz
+# Time: 1510000000 | signal_in: 1 | Frecuencia detectada:       0 Hz
+# Time: 1510070000 | signal_in: 1 | Frecuencia detectada:    1000 Hz
+# Time: 2010000000 | signal_in: 0 | Frecuencia detectada:    1000 Hz
+# Time: 2510000000 | signal_in: 1 | Frecuencia detectada:    1000 Hz
+# Time: 3010000000 | signal_in: 0 | Frecuencia detectada:    1000 Hz
+# Time: 3510000000 | signal_in: 1 | Frecuencia detectada:    1000 Hz
+# Time: 4010000000 | signal_in: 0 | Frecuencia detectada:    1000 Hz
+# Time: 4510000000 | signal_in: 1 | Frecuencia detectada:    1000 Hz
+# Time: 5010000000 | signal_in: 0 | Frecuencia detectada:    1000 Hz
+# Time: 5060000000 | signal_in: 1 | Frecuencia detectada:    1000 Hz
+# Time: 5060070000 | signal_in: 1 | Frecuencia detectada:    1818 Hz
+# Time: 5110000000 | signal_in: 0 | Frecuencia detectada:    1818 Hz
+# Time: 5160000000 | signal_in: 1 | Frecuencia detectada:    1818 Hz
+# Time: 5160070000 | signal_in: 1 | Frecuencia detectada:   10000 Hz
+# Time: 5210000000 | signal_in: 0 | Frecuencia detectada:   10000 Hz
+# Time: 5260000000 | signal_in: 1 | Frecuencia detectada:   10000 Hz
+# Time: 5310000000 | signal_in: 0 | Frecuencia detectada:   10000 Hz
+# Time: 5360000000 | signal_in: 1 | Frecuencia detectada:   10000 Hz
+# Time: 5410000000 | signal_in: 0 | Frecuencia detectada:   10000 Hz
+# Time: 5460000000 | signal_in: 1 | Frecuencia detectada:   10000 Hz
+# Time: 5510000000 | signal_in: 0 | Frecuencia detectada:   10000 Hz
+# Time: 5515000000 | signal_in: 1 | Frecuencia detectada:   10000 Hz
+# Time: 5515070000 | signal_in: 1 | Frecuencia detectada:   18181 Hz
+# Time: 5520000000 | signal_in: 0 | Frecuencia detectada:   18181 Hz
+# Time: 5525000000 | signal_in: 1 | Frecuencia detectada:   18181 Hz
+# Time: 5525070000 | signal_in: 1 | Frecuencia detectada:  100000 Hz
+# Time: 5530000000 | signal_in: 0 | Frecuencia detectada:  100000 Hz
+# Time: 5535000000 | signal_in: 1 | Frecuencia detectada:  100000 Hz
+# Time: 5540000000 | signal_in: 0 | Frecuencia detectada:  100000 Hz
+# Time: 5545000000 | signal_in: 1 | Frecuencia detectada:  100000 Hz
+# Time: 5550000000 | signal_in: 0 | Frecuencia detectada:  100000 Hz
+# Time: 5555000000 | signal_in: 1 | Frecuencia detectada:  100000 Hz
+# Time: 5560000000 | signal_in: 0 | Frecuencia detectada:  100000 Hz
+# Time: 5565000000 | signal_in: 1 | Frecuencia detectada:  100000 Hz
+# Time: 5570000000 | signal_in: 0 | Frecuencia detectada:  100000 Hz
+# Time: 5575000000 | signal_in: 1 | Frecuencia detectada:  100000 Hz
+# Time: 5580000000 | signal_in: 0 | Frecuencia detectada:  100000 Hz
+# Time: 5585000000 | signal_in: 1 | Frecuencia detectada:  100000 Hz
+# Time: 5590000000 | signal_in: 0 | Frecuencia detectada:  100000 Hz
+# Time: 5595000000 | signal_in: 1 | Frecuencia detectada:  100000 Hz
+# Time: 5600000000 | signal_in: 0 | Frecuencia detectada:  100000 Hz
+# Time: 5605000000 | signal_in: 1 | Frecuencia detectada:  100000 Hz
+# Time: 5610000000 | signal_in: 0 | Frecuencia detectada:  100000 Hz
+# ** Note: $stop    : C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Challenge_1_Frecuenciometro/frequency_meter_tb.v(57)
+#    Time: 6610 us  Iteration: 0  Instance: /frequency_meter_tb
+# Break in Module frequency_meter_tb at C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Challenge_1_Frecuenciometro/frequency_meter_tb.v line 57
+# End time: 19:01:36 on Mar 07,2025, Elapsed time: 0:02:53
+# Errors: 0, Warnings: 1
