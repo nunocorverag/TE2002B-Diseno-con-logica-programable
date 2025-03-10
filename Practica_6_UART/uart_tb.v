@@ -24,7 +24,7 @@ wire [9:0] leds;
 
 // Instancia del módulo UART con parámetros adaptados
 uart #(
-    .DEBOUNCE_THRESHOLD(DEBOUNCE_TB), .INVERT_RST(0), .INVERT_SEND_DATA(1)
+    .DEBOUNCE_THRESHOLD(DEBOUNCE_TB), .INVERT_RST(1), .INVERT_SEND_DATA(1)
 ) DUT (
     .clk(clk),
     .rst(rst),
@@ -100,15 +100,15 @@ endtask
 initial begin
     // Reset inicial
 	 clk = 0;
-    rst = 0;
-    #5000;
-	 // RST EN 1 AL PARECER NO HACE NADA
     rst = 1;
     #5000;
+	 // RST EN 1 AL PARECER NO HACE NADA
     rst = 0;
-	 send_data = 1;
     #5000;
+    rst = 1;
 	 send_data = 0;
+    #5000;
+	 send_data = 1;
     #5000;
     // Test 1: Sin paridad
     $display("\nTest 1: Transmisión sin paridad");

@@ -26,109 +26,109 @@
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/display {C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/display/display_module.v}
 # Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
-# Start time: 17:22:48 on Mar 07,2025
+# Start time: 13:29:41 on Mar 09,2025
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/display" C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/display/display_module.v 
 # -- Compiling module display_module
 # 
 # Top level modules:
 # 	display_module
-# End time: 17:22:48 on Mar 07,2025, Elapsed time: 0:00:00
+# End time: 13:29:41 on Mar 09,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/display {C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/display/decoder_7_seg.v}
 # Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
-# Start time: 17:22:48 on Mar 07,2025
+# Start time: 13:29:42 on Mar 09,2025
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/display" C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/display/decoder_7_seg.v 
 # -- Compiling module decoder_7_seg
 # 
 # Top level modules:
 # 	decoder_7_seg
-# End time: 17:22:48 on Mar 07,2025, Elapsed time: 0:00:00
+# End time: 13:29:42 on Mar 09,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer {C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer/debouncer.v}
 # Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
-# Start time: 17:22:48 on Mar 07,2025
+# Start time: 13:29:42 on Mar 09,2025
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer" C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer/debouncer.v 
 # -- Compiling module debouncer
 # 
 # Top level modules:
 # 	debouncer
-# End time: 17:22:49 on Mar 07,2025, Elapsed time: 0:00:01
+# End time: 13:29:42 on Mar 09,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer {C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer/counter_debouncer.v}
 # Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
-# Start time: 17:22:49 on Mar 07,2025
+# Start time: 13:29:42 on Mar 09,2025
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer" C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer/counter_debouncer.v 
 # -- Compiling module counter_debouncer
 # 
 # Top level modules:
 # 	counter_debouncer
-# End time: 17:22:49 on Mar 07,2025, Elapsed time: 0:00:00
+# End time: 13:29:42 on Mar 09,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/one_shot {C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/one_shot/one_shot.v}
 # Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
-# Start time: 17:22:49 on Mar 07,2025
+# Start time: 13:29:42 on Mar 09,2025
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/one_shot" C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/one_shot/one_shot.v 
 # -- Compiling module one_shot
 # 
 # Top level modules:
 # 	one_shot
-# End time: 17:22:49 on Mar 07,2025, Elapsed time: 0:00:00
+# End time: 13:29:42 on Mar 09,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot {C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer_one_shot.v}
 # Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
-# Start time: 17:22:49 on Mar 07,2025
+# Start time: 13:29:42 on Mar 09,2025
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot" C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer_one_shot.v 
 # -- Compiling module debouncer_one_shot
 # 
 # Top level modules:
 # 	debouncer_one_shot
-# End time: 17:22:49 on Mar 07,2025, Elapsed time: 0:00:00
+# End time: 13:29:42 on Mar 09,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART {C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/transmitter.v}
 # Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
-# Start time: 17:22:49 on Mar 07,2025
+# Start time: 13:29:42 on Mar 09,2025
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART" C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/transmitter.v 
 # -- Compiling module transmitter
 # 
 # Top level modules:
 # 	transmitter
-# End time: 17:22:49 on Mar 07,2025, Elapsed time: 0:00:00
+# End time: 13:29:42 on Mar 09,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART {C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/receiver.v}
 # Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
-# Start time: 17:22:49 on Mar 07,2025
+# Start time: 13:29:42 on Mar 09,2025
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART" C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/receiver.v 
 # -- Compiling module receiver
 # 
 # Top level modules:
 # 	receiver
-# End time: 17:22:50 on Mar 07,2025, Elapsed time: 0:00:01
+# End time: 13:29:43 on Mar 09,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART {C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/uart.v}
 # Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
-# Start time: 17:22:50 on Mar 07,2025
+# Start time: 13:29:43 on Mar 09,2025
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART" C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/uart.v 
 # -- Compiling module uart
 # 
 # Top level modules:
 # 	uart
-# End time: 17:22:50 on Mar 07,2025, Elapsed time: 0:00:00
+# End time: 13:29:43 on Mar 09,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART {C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/uart_tb.v}
 # Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
-# Start time: 17:22:50 on Mar 07,2025
+# Start time: 13:29:43 on Mar 09,2025
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART" C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/uart_tb.v 
 # -- Compiling module uart_tb
 # 
 # Top level modules:
 # 	uart_tb
-# End time: 17:22:50 on Mar 07,2025, Elapsed time: 0:00:00
+# End time: 13:29:43 on Mar 09,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  uart_tb
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" uart_tb 
-# Start time: 17:22:50 on Mar 07,2025
+# Start time: 13:29:43 on Mar 09,2025
 # ** Note: (vsim-3812) Design is being optimized...
 # ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
 # ** Note: (vopt-143) Recognized 1 FSM in module "receiver(fast)".
@@ -140,8 +140,6 @@
 # Loading work.debouncer(fast)
 # Loading work.counter_debouncer(fast)
 # Loading work.one_shot(fast)
-# Loading work.debouncer_one_shot(fast__1)
-# Loading work.debouncer(fast__1)
 # Loading work.transmitter(fast)
 # Loading work.receiver(fast)
 # Loading work.display_module(fast)
@@ -191,8 +189,6 @@ restart
 # Loading work.debouncer(fast)
 # Loading work.counter_debouncer(fast)
 # Loading work.one_shot(fast)
-# Loading work.debouncer_one_shot(fast__1)
-# Loading work.debouncer(fast__1)
 # Loading work.transmitter(fast)
 # Loading work.receiver(fast)
 # Loading work.display_module(fast)
@@ -223,5 +219,3 @@ run -all
 # ** Note: $stop    : C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/uart_tb.v(161)
 #    Time: 528820 ns  Iteration: 0  Instance: /uart_tb
 # Break in Module uart_tb at C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/uart_tb.v line 161
-# End time: 17:24:36 on Mar 07,2025, Elapsed time: 0:01:46
-# Errors: 0, Warnings: 1

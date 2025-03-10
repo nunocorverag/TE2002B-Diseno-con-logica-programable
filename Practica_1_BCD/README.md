@@ -103,38 +103,39 @@ Además, para representar correctamente números de varias cifras, el sistema ut
 
 # 📄 Contenido
 
+# 📄 Contenido
+
 ## 1. Código en Verilog
 
 Archivos .v utilizados en la implementación:
 
-- `bcd.v`
+- `counter.v`
+- `up_down_counter_parallel_load.v`
 - `display_module.v`
 - `decoder_7_seg.v`
-- `bcd_tb.v` (Testbench)
-
-Para lograrlo, se desarrollaron los siguientes módulos:
+- `clock_divider.v`
+- `counter_tb.sv` (Testbench)
 
 ### 1.1 Módulos del sistema
 
-- **decoder_7_seg**
+- **counter.v**
+  - Módulo principal que conecta todos los componentes.
+  
+- **up_down_counter_parallel_load.v**
+  - Contador que permite carga síncrona y cambio de dirección.
 
-  - Recibe una entrada de 4 bits y la convierte en un número hexadecimal representado en un display de 7 segmentos.
+- **clock_divider.v**
+  - Reduce la frecuencia del reloj para una mejor visualización.
 
-- **display_module**
+- **display_module.v**
+  - Convierte el número binario en decimal para su visualización en los displays.
 
-  - Gestiona múltiples instancias del módulo decoder_7_seg para manejar la visualización de diferentes unidades (unidades, decenas, centenas, millares, decenas de millar y centenas de millar).
-  - Se encarga de recibir un número binario de n bits y distribuir cada dígito en los distintos displays mediante operaciones de módulo y división que permitan la visualización en el sistema decimal.
+- **decoder_7_seg.v**
+  - Decodifica valores binarios para los displays de 7 segmentos.
 
-- **bcd**
+- **counter_tb.sv (Testbench)**
+  - Se encarga de probar el correcto funcionamiento del sistema.
 
-  - Recibe la entrada directamente desde los switches y la envía al display_module para su conversión y visualización.
-  - Gestiona las salidas para controlar los diferentes displays.
-
-- **bcd_tb (Testbench)**
-
-  - Se encarga de probar el correcto funcionamiento del módulo bcd generando valores aleatorios de entrada mediante la función set_input, que asigna un número aleatorio sin signo (unsigned random) en el rango de 0 a 2^"BIT_SIZE"-1.
-  - Realiza i iteraciones, donde se asigna el número aleatorio a bcd_in_sw, simulando el comportamiento de los switches.
-  - Permite la observación de las señales de salida para verificar el correcto funcionamiento del sistema.
 
 ## 2. Diagrama RTL
 

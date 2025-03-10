@@ -1,4 +1,4 @@
-module counter #(parameter SEGMENTOS = 7, BIT_SIZE = 20, FREQ = 1, DATA_IN_SIZE = 6)(
+module counter #(parameter SEGMENTOS = 7, BIT_SIZE = 20, FREQ = 1, DATA_IN_SIZE = 6, INVERT_RST = 1, INVERT_CLEAR = 1, DEBOUNCE_THRESHOLD = 5000)(
     input clk, rst_btn, clear_btn, enable, up_down, load,
     input [DATA_IN_SIZE-1:0] data_in,
     output [0:SEGMENTOS-1] D_decenas, D_unidades, D_centenas, D_millares, D_decenas_millares, D_centenas_millares
@@ -10,13 +10,13 @@ wire c_out;
 wire rst_one_shot;
 wire clear_one_shot;
 
-debouncer_one_shot #(.INVERT_LOGIC(1)) DEB_ONE_SHOT_RST (
+debouncer_one_shot #(.INVERT_LOGIC(INVERT_RST), .DEBOUNCE_THRESHOLD(DEBOUNCE_THRESHOLD)) DEB_ONE_SHOT_RST (
     .clk(clk),
     .signal(rst_btn),
     .signal_one_shot(rst_one_shot)
 );
 
-debouncer_one_shot #(.INVERT_LOGIC(1)) DEB_ONE_SHOT_CLEAR (
+debouncer_one_shot #(.INVERT_LOGIC(INVERT_CLEAR), .DEBOUNCE_THRESHOLD(DEBOUNCE_THRESHOLD)) DEB_ONE_SHOT_CLEAR (
     .clk(clk),
     .signal(clear_btn),
     .signal_one_shot(clear_one_shot)
