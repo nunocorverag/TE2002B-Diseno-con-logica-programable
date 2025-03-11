@@ -20,16 +20,18 @@ module uart_top #(
     output output_data_serial, // TX a GPIO
 
     // Receiver
-	input serial_data_in,
+	input serial_data_in, // RX a GPIO
 
-    output reg [DATA_BITS-1:0] leds
-    // output [0: SEGMENTOS - 1] D_decenas, D_unidades, D_centenas, D_millares, D_decenas_millares, D_centenas_millares
+    output reg [DATA_BITS-1:0] leds,
+    output [0: SEGMENTOS - 1] D_decenas, D_unidades, D_centenas, D_millares, D_decenas_millares, D_centenas_millares,
+    output reg [1:0] parity_leds // 2 bits para indicar estado de paridad
 );
 
 localparam CLOCKS_PER_BIT = BASE_CLK / BAUDRATE;
 
 wire one_shot_rst, one_shot_send_data;
 wire [DATA_BITS-1:0] rx_data;
+wire parity_error;
 
 debouncer_one_shot #(.INVERT_LOGIC(INVERT_RST), .DEBOUNCE_THRESHOLD(DEBOUNCE_THRESHOLD)) DEB_ONE_SHOT_RST (
     .clk(clk),
@@ -56,16 +58,43 @@ uart_rx #(.CLOCKS_PER_BIT(CLOCKS_PER_BIT), .DATA_BITS(DATA_BITS), .CLOCK_CTR_WID
     .clk(clk),
     .rst(one_shot_rst),
     .serial_data_in(serial_data_in),
-    .rx_data(rx_data)
+    .parity_type(parity_type_sw),
+    .rx_data(rx_data),
+    .parity_error(parity_error)
 );
 
-always @(posedge clk or posedge one_shot_rst) begin
-    if (one_shot_rst)
-        leds <= 8'b00000001;
-    else if (one_shot_send_data)
-        leds <= 8'b00000010;
-    else
-        leds <= rx_data;
+display_module #(.WIRE_SIZE(WIRE_SIZE), .SEGMENTOS(SEGMENTOS), .BIT_SIZE(DATA_BITS))  DISPLAY_MODULE (
+    .number(rx_data),
+    .D_unidades(D_unidades),
+    .D_decenas(D_decenas),
+    .D_centenas(D_centenas),
+    .D_millares(D_millares),
+    .D_decenas_millares(D_decenas_millares),
+    .D_centenas_millares(D_centenas_millares)
+);
+
+// Esto no se usa porque se tiene que manejar el rst
+// always @(posedge clk or posedge rst) 
+// begin
+//     if (parity_error == 1'b1)
+//     begin
+//         parity_leds[1] <= 1;
+//         parity_leds[0] <= 0;
+//     end
+//     else
+//         begin
+//             parity_leds[1] <= 0;
+//             parity_leds[0] <= 1;   
+//         end
+// end
+
+always @(posedge clk or posedge one_shot_rst) 
+begin
+    if (one_shot_rst == 1'b1) 
+        parity_leds <= 2'b00; // Resetear ambos LEDs
+    else 
+        parity_leds <= 2'b00; // Resetear ambos LEDs
 end
+
 
 endmodule

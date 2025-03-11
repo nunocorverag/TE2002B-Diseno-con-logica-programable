@@ -24,7 +24,6 @@ reg [2:0] active_state                     = TX_IDLE_STATE;
 reg [D_IDX_WIDTH-1:0] tx_bit_idx           = 0;
 reg [CLOCK_CTR_WIDTH-1:0] data_tx_count    = 0;
 
-// Add
 reg [1:0] parity_type_reg; // Registro para alimentar la paridad seleccioanda
 
 // control state machine
@@ -38,7 +37,6 @@ begin
            
             TX_IDLE_STATE:
                 begin
-                    // Add
                     if (parity_type === 2'b11 || parity_type === 2'b00)  
                         parity_type_reg <= 0;
                     else
