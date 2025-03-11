@@ -4,12 +4,12 @@ module password_fsm #(parameter DIG_1 = 2, DIG_2 = 0, DIG_3 = 1, DIG_4 = 6) (
     output reg incorrect, done
 );
 
-parameter IDLE = 0;
-parameter FIRST_DIG = 1;
-parameter SECOND_DIG = 2;
-parameter THIRD_DIG = 3;
-parameter COMPLETE = 4;
-parameter ERROR = 5;
+localparam IDLE = 0;
+localparam FIRST_DIG = 1;
+localparam SECOND_DIG = 2;
+localparam THIRD_DIG = 3;
+localparam COMPLETE = 4;
+localparam ERROR = 5;
 
 reg [2:0] current_state, next_state;
 

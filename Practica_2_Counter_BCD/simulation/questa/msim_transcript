@@ -215,3 +215,5 @@ run -all
 # ** Note: $stop    : C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_2_Counter_BCD/counter_tb.v(82)
 #    Time: 32 us  Iteration: 0  Instance: /counter_tb
 # Break in Module counter_tb at C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_2_Counter_BCD/counter_tb.v line 82
+# End time: 07:17:12 on Mar 10,2025, Elapsed time: 8:34:09
+# Errors: 0, Warnings: 1

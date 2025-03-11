@@ -12,10 +12,10 @@ Z0 !s99 nomlopt
 cModel Technology
 Z1 dC:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_4_Password/simulation/questa
 T_opt
-!s110 1741326861
-V:B4h9<jW?^QReV==S=3:K1
+!s110 1741660535
+VZB:Uh[FmCiEbo4UFF_ZbK2
 04 15 4 work password_top_tb fast 0
-=1-088fc38c151b-67ca8a0d-d0-7390
+=1-088fc38c151b-67cfa177-143-32d0
 R0
 !s12b OEM100
 !s124 OEM10U48 
@@ -25,7 +25,7 @@ n@_opt
 OL;O;2023.3;77
 vcounter_debouncer
 2C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer/counter_debouncer.v
-Z3 !s110 1741326860
+Z3 !s110 1741660533
 !i10b 1
 !s100 Q`LcA7Qe`S1aS`5W1hA4g2
 I1c2UWhEm]k_LiTc5S?[A>1
@@ -40,7 +40,7 @@ Z5 OL;L;2023.3;77
 r1
 !s85 0
 31
-Z6 !s108 1741326860.000000
+Z6 !s108 1741660533.000000
 !s107 C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer/counter_debouncer.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer|C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer/counter_debouncer.v|
 !i113 0
@@ -73,7 +73,7 @@ R8
 R2
 vdebouncer_one_shot
 2C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer_one_shot.v
-R3
+Z9 !s110 1741660534
 !i10b 1
 !s100 c>NNj2]F>ITJIT_GhWWzU1
 I^3_F9HnoPNJD4b3ELUCE<2
@@ -88,7 +88,7 @@ R5
 r1
 !s85 0
 31
-R6
+Z10 !s108 1741660534.000000
 !s107 C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer_one_shot.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot|C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer_one_shot.v|
 !i113 0
@@ -97,22 +97,22 @@ R7
 R2
 vone_shot
 2C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/one_shot/one_shot.v
-R3
+R9
 !i10b 1
-!s100 ez9^2_6]O[l^94a3l=W^d1
-IReQO>353k`TnZkVK[4`j;3
+!s100 eJ[TWaFndPBKmhYhz>B7[2
+I:IT1]h[Oo7;B@kHkPC^161
 R1
-w1741191427
+w1741579732
 8C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/one_shot/one_shot.v
 FC:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/one_shot/one_shot.v
 !i122 5
-L0 19 15
+L0 19 16
 R4
 R5
 r1
 !s85 0
 31
-R6
+R10
 !s107 C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/one_shot/one_shot.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/one_shot|C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/one_shot/one_shot.v|
 !i113 0
@@ -123,10 +123,10 @@ vpassword_fsm
 2C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_4_Password/password_fsm.v
 R3
 !i10b 1
-!s100 =N8heeMRkid5`;1?MEFb:1
-IlMc^c2HdgMdDWNSJ_gQ9@1
+!s100 L>n_A4WeKPRS=g1gCVRkh1
+I<S6lg[AheY[cAMkcX_KDR0
 R1
-w1741326820
+w1741660318
 8C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_4_Password/password_fsm.v
 FC:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_4_Password/password_fsm.v
 !i122 0
@@ -136,21 +136,21 @@ R5
 r1
 !s85 0
 31
-!s108 1741326859.000000
+R6
 !s107 C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_4_Password/password_fsm.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_4_Password|C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_4_Password/password_fsm.v|
 !i113 0
 R7
-Z9 !s92 -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_4_Password -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 !s92 -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_4_Password -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R2
 vpassword_top
 2C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_4_Password/password_top.v
 R3
 !i10b 1
-!s100 aP_llbiP`EPjY>7iS<bLB0
-IeXP^QU9[?`j[SF9<VbYM30
+!s100 N5QMCf4=V]=QB::>CA]kX2
+IfP@_=OhL^[`SUP_JCXPZH1
 R1
-w1741326289
+w1741354495
 8C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_4_Password/password_top.v
 FC:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_4_Password/password_top.v
 !i122 1
@@ -165,11 +165,11 @@ R6
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_4_Password|C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_4_Password/password_top.v|
 !i113 0
 R7
-R9
+R11
 R2
 vpassword_top_tb
 2C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_4_Password/password_top_tb.v
-R3
+R9
 !i10b 1
 !s100 6IjIiRPB6e<gb3``JAJZk1
 IB`:TTGB0Y3JkTY@f3]NFh2
@@ -184,21 +184,21 @@ R5
 r1
 !s85 0
 31
-R6
+R10
 !s107 C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_4_Password/password_top_tb.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_4_Password|C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_4_Password/password_top_tb.v|
 !i113 0
 R7
-R9
+R11
 R2
 vstatus_display
 2C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/display/status_display.v
 R3
 !i10b 1
-!s100 l1IQ;=fd7HzZe5@_VAhnK1
-In=02]7HVF0am1KlTYhl=c2
+!s100 h?Aooz1dXL4O2Ad[ioZC_3
+Il1VD6fI7igbCJTKm=M24A0
 R1
-w1741317707
+w1741354572
 8C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/display/status_display.v
 FC:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/display/status_display.v
 !i122 2

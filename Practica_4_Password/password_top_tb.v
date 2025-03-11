@@ -3,7 +3,7 @@
 module password_top_tb();
 
 //Parametros
-localparam CLOCK_PERIOD = 20;       // 20ns = 50 MHz
+localparam CLOCK_PERIOD = 20;
 
 localparam DIG_1 = 2;
 localparam DIG_2 = 0; 
