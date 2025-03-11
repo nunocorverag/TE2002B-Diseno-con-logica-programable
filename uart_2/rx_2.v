@@ -1,4 +1,4 @@
-module uart_rx_one #(
+module uart_rx #(
     parameter CLOCKS_PER_BIT = 434,
                 DATA_BITS = 8,
                 CLOCK_CTR_WIDTH = 32
@@ -39,7 +39,6 @@ begin
 				begin
 					rx_bit_idx <= 0;
 					data_rx_count <= 0;
-					leds <= reg_rx_data;
 					if (serial_data_in == 1'b0)
 						active_state <= RX_START_BIT_STATE;
 					else
@@ -103,5 +102,11 @@ end
 
 assign rx_data = reg_rx_data;
 
+always @(posedge clk or negedge rst) begin
+	if(~rst)
+        leds <= 0;
+	else
+		leds <= rx_data;
+end
 
 endmodule

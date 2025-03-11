@@ -1,8 +1,7 @@
 module uart_tx #(
     parameter CLOCKS_PER_BIT = 434,
                 DATA_BITS = 8,
-                CLOCK_CTR_WIDTH = 32,
-                D_IDX_WIDTH = (DATA_BITS > 1) ? $clog2(DATA_BITS) : 1 // Que genere al menos 1
+                CLOCK_CTR_WIDTH = 32
 )(
     input clk,
     input rst,
@@ -19,6 +18,8 @@ localparam TX_DATA_TX_STATE = 3'b010;
 localparam TX_PARITY_TX_STATE = 3'b011;
 localparam TX_STOP_BIT_STATE = 3'b100;
  
+localparam D_IDX_WIDTH = (DATA_BITS > 1) ? $clog2(DATA_BITS) : 1;
+
 reg [2:0] active_state                     = TX_IDLE_STATE;
 reg [D_IDX_WIDTH-1:0] tx_bit_idx           = 0;
 reg [CLOCK_CTR_WIDTH-1:0] data_tx_count    = 0;
@@ -29,8 +30,7 @@ reg [1:0] parity_type_reg; // Registro para alimentar la paridad seleccioanda
 // control state machine
 always @(posedge clk or posedge rst)
 begin
- 
-    if (rst)
+	if (rst == 1'b1)
         active_state <= TX_IDLE_STATE;
     else
         begin

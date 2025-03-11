@@ -80,7 +80,7 @@ set_location_assignment PIN_F15 -to parity_type_sw[1]
 # Asignación de la salida output_data_serial a GPIO_0
 set_location_assignment PIN_V10 -to output_data_serial
 
-# Asignación de los 10 LEDs a un arreglo leds[9:0]
+# Asignación de los 10 leds a un arreglo leds[9:0]
 set_location_assignment PIN_A8 -to leds[0]
 set_location_assignment PIN_A9 -to leds[1]
 set_location_assignment PIN_A10 -to leds[2]

@@ -17,18 +17,19 @@ module uart_top #(
     // Transmitter
     input [DATA_BITS-1:0] inp_data,
     input send_data, 
-    output output_data_serial // TX a GPIO
+    output output_data_serial, // TX a GPIO
 
     // Receiver
-	// input serial_data_in,
+	input serial_data_in,
 
-    // output reg [9:0] leds,
+    output reg [DATA_BITS-1:0] leds
     // output [0: SEGMENTOS - 1] D_decenas, D_unidades, D_centenas, D_millares, D_decenas_millares, D_centenas_millares
 );
 
 localparam CLOCKS_PER_BIT = BASE_CLK / BAUDRATE;
 
 wire one_shot_rst, one_shot_send_data;
+wire [DATA_BITS-1:0] rx_data;
 
 debouncer_one_shot #(.INVERT_LOGIC(INVERT_RST), .DEBOUNCE_THRESHOLD(DEBOUNCE_THRESHOLD)) DEB_ONE_SHOT_RST (
     .clk(clk),
@@ -50,5 +51,21 @@ uart_tx #(.CLOCKS_PER_BIT(CLOCKS_PER_BIT), .DATA_BITS(DATA_BITS), .CLOCK_CTR_WID
     .parity_type(parity_type_sw),
     .output_data_serial(output_data_serial)
 );
+
+uart_rx #(.CLOCKS_PER_BIT(CLOCKS_PER_BIT), .DATA_BITS(DATA_BITS), .CLOCK_CTR_WIDTH(CLOCK_CTR_WIDTH)) UART_RX (
+    .clk(clk),
+    .rst(one_shot_rst),
+    .serial_data_in(serial_data_in),
+    .rx_data(rx_data)
+);
+
+always @(posedge clk or posedge one_shot_rst) begin
+    if (one_shot_rst)
+        leds <= 8'b00000001;
+    else if (one_shot_send_data)
+        leds <= 8'b00000010;
+    else
+        leds <= rx_data;
+end
 
 endmodule
