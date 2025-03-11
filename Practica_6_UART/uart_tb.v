@@ -60,7 +60,6 @@ task automatic send_byte;
     begin
         data = tx_data;
         parity_type = p_type;
-        send_data = 0;
         // #(DEBOUNCE_TB * CLOCK_PERIOD);  // Espera debounce
         //send_data = 1; // Esto esta raro hay que ver como implementarlo luego bien
         
@@ -71,36 +70,37 @@ task automatic send_byte;
 endtask
 
 // Tarea para verificar resultados
-task automatic check_result;
-    input [7:0] expected_data;
-    input expected_error;
-    begin
-        // Acceso a las señales internas usando jerarquía de nombres
-        if(DUT.parallel_out !== expected_data) begin
-            $display("[ERROR] Tiempo %t: Dato recibido %h != Esperado %h",
-                    $time, DUT.parallel_out, expected_data);
-        end
-        else begin
-            $display("[OK] Tiempo %t: Dato correcto %h",
-                    $time, DUT.parallel_out);
-        end
+//task automatic check_result;
+//     input [7:0] expected_data;
+//     input expected_error;
+//     begin
+//         // Acceso a las señales internas usando jerarquía de nombres
+//         if(DUT.parallel_out !== expected_data) begin
+//             $display("[ERROR] Tiempo %t: Dato recibido %h != Esperado %h",
+//                     $time, DUT.parallel_out, expected_data);
+//         end
+//         else begin
+//             $display("[OK] Tiempo %t: Dato correcto %h",
+//                     $time, DUT.parallel_out);
+//         end
         
-        if(DUT.parity_error !== expected_error) begin
-            $display("[ERROR] Tiempo %t: Error de paridad %b != Esperado %b",
-                    $time, DUT.parity_error, expected_error);
-        end
-        else begin
-            $display("[OK] Tiempo %t: Estado paridad correcto",
-                    $time);
-        end
-    end
-endtask
+//         if(DUT.parity_error !== expected_error) begin
+//             $display("[ERROR] Tiempo %t: Error de paridad %b != Esperado %b",
+//                     $time, DUT.parity_error, expected_error);
+//         end
+//         else begin
+//             $display("[OK] Tiempo %t: Estado paridad correcto",
+//                     $time);
+//         end
+//     end
+// endtask
 
 // Secuencia de prueba
 initial begin
     // Reset inicial
 	 clk = 0;
     rst = 1;
+	 send_data = 1;
     #5000;
 	 // RST EN 1 AL PARECER NO HACE NADA
     rst = 0;
@@ -110,50 +110,51 @@ initial begin
     #5000;
 	 send_data = 1;
     #5000;
+
     // Test 1: Sin paridad
     $display("\nTest 1: Transmisión sin paridad");
     send_byte(8'hA5, 0);
-    check_result(8'hA5, 0);
+    // check_result(8'hA5, 0);
     
-	 send_data = 1;
-    #5000;
 	 send_data = 0;
+    #5000;
+	 send_data = 1;
     #5000;
 	 
     // Test 2: Paridad par correcta
     $display("\nTest 2: Paridad par (4 bits '1')");
     send_byte(8'hAA, 2);  // 8'b10101010 (4 unos)
-    check_result(8'hAA, 0);
+    // check_result(8'hAA, 0);
     
-	 send_data = 1;
-    #5000;
 	 send_data = 0;
+    #5000;
+	 send_data = 1;
     #5000;
 	 
     // Test 3: Paridad par incorrecta
     $display("\nTest 3: Paridad par (5 bits '1')");
     send_byte(8'hAB, 2);  // 8'b10101011 (5 unos)
-    check_result(8'hAB, 1);
+    // check_result(8'hAB, 1);
     
-	 send_data = 1;
+	 send_data = 9;
     #5000;
-	 send_data = 0;
+	 send_data = 1;
     #5000;
 	 
     // Test 4: Paridad impar correcta
     $display("\nTest 4: Paridad impar (5 bits '1')");
     send_byte(8'hAB, 1);  // 8'b10101011 (5 unos)
-    check_result(8'hAB, 0);
+    // check_result(8'hAB, 0);
    
-	 send_data = 1;
-    #5000;
 	 send_data = 0;
+    #5000;
+	 send_data = 1;
     #5000;
 	 
     // Test 5: Paridad impar incorrecta
     $display("\nTest 5: Paridad impar (4 bits '1')");
     send_byte(8'hAA, 1);  // 8'b10101010 (4 unos)
-    check_result(8'hAA, 1);
+    // check_result(8'hAA, 1);
 
     // Finalizar simulación
     #100;

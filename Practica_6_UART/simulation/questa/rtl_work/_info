@@ -1,8 +1,28 @@
 m255
 K4
 z2
+Z0 !s12c _opt1
+Z1 !s99 nomlopt
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
 !s12c _opt
-Z0 !s99 nomlopt
+R1
 !s11f vlog 2023.3 2023.07, Jul 17 2023
 13
 !s112 1.1
@@ -10,256 +30,89 @@ Z0 !s99 nomlopt
 !i10e 25
 !i10f 100
 cModel Technology
-Z1 dC:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/simulation/questa
+Z2 dC:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/simulation/questa
 T_opt
 !s110 1741548585
 VB?RH=55;77P2o1LNYFi5U0
 04 7 4 work uart_tb fast 0
 =1-088fc38c151b-67cdec28-23e-31fc
-R0
+R1
 !s12b OEM100
 !s124 OEM10U19 
 o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work +acc
-Z2 tCvgOpt 0
+Z3 tCvgOpt 0
 n@_opt
 OL;O;2023.3;77
-vcounter_debouncer
-2C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer/counter_debouncer.v
-Z3 !s110 1741548582
+R2
+vtransmitter
+2C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/transmitter.v
+!s110 1741650548
 !i10b 1
-!s100 Q`LcA7Qe`S1aS`5W1hA4g2
-I1c2UWhEm]k_LiTc5S?[A>1
-R1
-w1741190693
-8C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer/counter_debouncer.v
-FC:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer/counter_debouncer.v
-!i122 3
-L0 35 34
+!s100 l[a_>RIXEhiDUd;Wa4=lg3
+IhF79hlWzHJG]HGFZ<jfK@0
+R2
+w1741636231
+8C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/transmitter.v
+FC:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/transmitter.v
+!i122 0
+L0 2 146
 Z4 VDg1SIo80bB@j0V0VzS_@n1
 Z5 OL;L;2023.3;77
 r1
 !s85 0
 31
-Z6 !s108 1741548582.000000
-!s107 C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer/counter_debouncer.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer|C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer/counter_debouncer.v|
-!i113 0
-Z7 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-Z8 !s92 -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R2
-vdebouncer
-2C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer/debouncer.v
-R3
-!i10b 1
-!s100 ^Czj3HUz6zk_@Y:DKMK=:1
-I]L2<:=eO;@zi3z3WaM6d=3
-R1
-w1741190703
-8C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer/debouncer.v
-FC:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer/debouncer.v
-!i122 2
-L0 19 40
-R4
-R5
-r1
-!s85 0
-31
-R6
-!s107 C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer/debouncer.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer|C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer/debouncer.v|
-!i113 0
-R7
-R8
-R2
-vdebouncer_one_shot
-2C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer_one_shot.v
-R3
-!i10b 1
-!s100 c>NNj2]F>ITJIT_GhWWzU1
-I^3_F9HnoPNJD4b3ELUCE<2
-R1
-w1741191006
-8C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer_one_shot.v
-FC:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer_one_shot.v
-!i122 5
-L0 3 20
-R4
-R5
-r1
-!s85 0
-31
-R6
-!s107 C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer_one_shot.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot|C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/debouncer_one_shot.v|
-!i113 0
-R7
-!s92 -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R2
-vdecoder_7_seg
-2C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/display/decoder_7_seg.v
-R3
-!i10b 1
-!s100 53Lm1[XWJ>??]]FOi[O_:2
-IYE9HS?XE_6zX_IUjFWOX>3
-R1
-w1741315935
-8C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/display/decoder_7_seg.v
-FC:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/display/decoder_7_seg.v
-!i122 1
-L0 1 28
-R4
-R5
-r1
-!s85 0
-31
-R6
-!s107 C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/display/decoder_7_seg.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/display|C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/display/decoder_7_seg.v|
-!i113 0
-R7
-Z9 !s92 -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/display -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R2
-vdisplay_module
-2C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/display/display_module.v
-!s110 1741548581
-!i10b 1
-!s100 b0E^U>lHC5:o3USJBPGzA2
-Ib:kA2XQU=?8L^OeZUHZAT1
-R1
-w1741146027
-8C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/display/display_module.v
-FC:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/display/display_module.v
-!i122 0
-L0 3 53
-R4
-R5
-r1
-!s85 0
-31
-!s108 1741548581.000000
-!s107 C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/display/display_module.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/display|C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/display/display_module.v|
-!i113 0
-R7
-R9
-R2
-vone_shot
-2C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/one_shot/one_shot.v
-R3
-!i10b 1
-!s100 ez9^2_6]O[l^94a3l=W^d1
-IReQO>353k`TnZkVK[4`j;3
-R1
-w1741191427
-8C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/one_shot/one_shot.v
-FC:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/one_shot/one_shot.v
-!i122 4
-L0 19 15
-R4
-R5
-r1
-!s85 0
-31
-R6
-!s107 C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/one_shot/one_shot.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/one_shot|C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/one_shot/one_shot.v|
-!i113 0
-R7
-!s92 -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/utils/debouncer_one_shot/one_shot -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R2
-vreceiver
-2C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/receiver.v
-Z10 !s110 1741548583
-!i10b 1
-!s100 Jc651E>ai>J>e1mn6XP`S1
-IL=Q7jbnL24LXDg[C<j[FL3
-R1
-w1741302722
-8C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/receiver.v
-FC:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/receiver.v
-!i122 7
-L0 2 149
-R4
-R5
-r1
-!s85 0
-31
-R6
-!s107 C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/receiver.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART|C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/receiver.v|
-!i113 0
-R7
-Z11 !s92 -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R2
-vtransmitter
-2C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/transmitter.v
-R3
-!i10b 1
-!s100 l[a_>RIXEhiDUd;Wa4=lg3
-IhF79hlWzHJG]HGFZ<jfK@0
-R1
-w1741300648
-8C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/transmitter.v
-FC:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/transmitter.v
-!i122 6
-L0 2 146
-R4
-R5
-r1
-!s85 0
-31
-R6
+Z6 !s108 1741650548.000000
 !s107 C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/transmitter.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART|C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/transmitter.v|
 !i113 0
-R7
-R11
-R2
+Z7 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z8 !s92 -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
 vuart
 2C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/uart.v
-R10
+Z9 !s110 1741650549
 !i10b 1
-!s100 Q6<XR_FAH9LVZPQP1iI<d3
-IX:NJ^Z7^mc_IT`mzQSKS50
-R1
-w1741369014
+!s100 _j::IFzYg3MPh82EbV=fQ0
+I;D5Jg1?B;g^L5P4Enf?]O0
+R2
+w1741650485
 8C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/uart.v
 FC:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/uart.v
-!i122 8
-L0 2 98
+!i122 1
+L0 2 102
 R4
 R5
 r1
 !s85 0
 31
-Z12 !s108 1741548583.000000
+R6
 !s107 C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/uart.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART|C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/uart.v|
 !i113 0
 R7
-R11
-R2
+R8
+R3
 vuart_tb
 2C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/uart_tb.v
-R10
+R9
 !i10b 1
-!s100 E@aI<YWb<U5hDAYGY;ZKU2
-IbLko<Ab;B>fPmj]CgQYmY0
-R1
-w1741548400
+!s100 Nz0PffKGhWjmFVhlhXFa=2
+IIked=519JE06HUQ7ZVR=D1
+R2
+w1741635365
 8C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/uart_tb.v
 FC:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/uart_tb.v
-!i122 9
-L0 3 162
+!i122 2
+L0 3 163
 R4
 R5
 r1
 !s85 0
 31
-R12
+!s108 1741650549.000000
 !s107 C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/uart_tb.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART|C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/uart_tb.v|
 !i113 0
 R7
-R11
-R2
+R8
+R3

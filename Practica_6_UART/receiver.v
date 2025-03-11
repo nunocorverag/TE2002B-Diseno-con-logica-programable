@@ -54,7 +54,7 @@ always @(posedge clk or posedge rst)
 					// Dejar parallel out en el estado mas reciente
 					clock_ctr <= 0;
 					d_idx <= 0;
-					if(~serial_data_in)
+					if(serial_data_in === 1'b0)
 						active_state <= RX_START;
 					else
 						active_state <= active_state;

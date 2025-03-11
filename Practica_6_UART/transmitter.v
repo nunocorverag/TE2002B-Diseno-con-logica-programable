@@ -2,8 +2,7 @@
 module transmitter#(
 		parameter COUNTS_PER_BIT = 434,
 			DATA_BITS = 8,
-			CLOCK_CTR_WIDTH = 32,
-            D_IDX_WIDTH = (DATA_BITS > 1) ? $clog2(DATA_BITS) : 1 // Que genere al menos 1
+			CLOCK_CTR_WIDTH = 32
 )(
 	input [DATA_BITS-1:0] data,
 	input send_data,
@@ -13,7 +12,7 @@ module transmitter#(
 	output reg serial_out
 );
 
-localparam counts_per_bit = COUNTS_PER_BIT;
+localparam D_IDX_WIDTH = (DATA_BITS > 1) ? $clog2(DATA_BITS) : 1 
 
 // FALTA EL ESTADO DE PARIDAD
 localparam TX_IDLE = 0;
@@ -40,7 +39,7 @@ always @(posedge clk or posedge rst)
 			end
 		else if (active_state == TX_IDLE)
 			if (^parity_type === 1'bX || parity_type === 3)  
-				parity_type_reg <= 0;  
+				parity_type_reg <= 0;
 			else
 				parity_type_reg <= parity_type;
 		case (active_state)
@@ -116,7 +115,7 @@ always @(posedge clk or posedge rst)
 					
 					if (parity_type_reg  == 1)  // Paridad impar
 						serial_out <= ~parity_bit;
-					else if (parity_type_reg  == 2) // Paridad par
+					else(parity_type_reg  == 2) // Paridad par
 						serial_out <= parity_bit;
 
 					if (clock_ctr < counts_per_bit - 1)
@@ -141,7 +140,11 @@ always @(posedge clk or posedge rst)
 					else
 						active_state <= TX_IDLE;
 				end
-		endcase	
+			default:
+				begin
+					active_state <= TX_IDLE;
+				end
+		endcase
 	end
 
 endmodule
