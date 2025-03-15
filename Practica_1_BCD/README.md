@@ -103,8 +103,6 @@ Además, para representar correctamente números de varias cifras, el sistema ut
 
 # 📄 Contenido
 
-# 📄 Contenido
-
 ## 1. Código en Verilog
 
 Archivos .v utilizados en la implementación:

@@ -17,62 +17,100 @@
 # if {[file exists rtl_work]} {
 # 	vdel -lib rtl_work -all
 # }
-# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is gnuno@GUSTAVOACER.
 # vlib rtl_work
-# ** Warning: (vlib-34) Library already exists at "rtl_work".
-# Errors: 0, Warnings: 1
 # vmap work rtl_work
 # Questa Intel Starter FPGA Edition-64 vmap 2023.3 Lib Mapping Utility 2023.07 Jul 17 2023
 # vmap work rtl_work 
 # Copying c:/intelfpga_lite/23.1std/questa_fse/win64/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vlog -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART {C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/transmitter.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART {C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/uart_rx.v}
 # Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
-# Start time: 17:49:08 on Mar 10,2025
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART" C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/transmitter.v 
-# -- Compiling module transmitter
+# Start time: 23:01:16 on Mar 14,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART" C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/uart_rx.v 
+# -- Compiling module uart_rx
 # 
 # Top level modules:
-# 	transmitter
-# End time: 17:49:08 on Mar 10,2025, Elapsed time: 0:00:00
+# 	uart_rx
+# End time: 23:01:16 on Mar 14,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART {C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/uart.v}
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART {C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/uart_rx_tb.v}
 # Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
-# Start time: 17:49:08 on Mar 10,2025
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART" C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/uart.v 
-# -- Compiling module uart
+# Start time: 23:01:16 on Mar 14,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART" C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/uart_rx_tb.v 
+# -- Compiling module uart_rx_tb
 # 
 # Top level modules:
-# 	uart
-# End time: 17:49:09 on Mar 10,2025, Elapsed time: 0:00:01
+# 	uart_rx_tb
+# End time: 23:01:16 on Mar 14,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vlog -vlog01compat -work work +incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART {C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/uart_tb.v}
-# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
-# Start time: 17:49:09 on Mar 10,2025
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART" C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/uart_tb.v 
-# -- Compiling module uart_tb
-# 
-# Top level modules:
-# 	uart_tb
-# End time: 17:49:09 on Mar 10,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  uart_tb
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" uart_tb 
-# Start time: 17:49:09 on Mar 10,2025
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  uart_rx_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" uart_rx_tb 
+# Start time: 23:01:16 on Mar 14,2025
 # ** Note: (vsim-3812) Design is being optimized...
 # ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
-# ** Error (suppressible): C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/uart_tb.v(78): (vopt-7063) Failed to find 'parallel_out' in hierarchical name 'DUT.parallel_out'.
-#         Region: uart_tb
-# ** Error (suppressible): C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/uart_tb.v(87): (vopt-7063) Failed to find 'parity_error' in hierarchical name 'DUT.parity_error'.
-#         Region: uart_tb
-# Optimization failed
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=2, Warnings=1.
-# Error loading design
-# Error: Error loading design
-#        Pausing macro execution
-# MACRO ./Practica_6_UART_run_msim_rtl_verilog.do PAUSED at line 13
-# End time: 17:50:09 on Mar 10,2025, Elapsed time: 0:01:00
-# Errors: 2, Warnings: 1
+# ** Note: (vopt-143) Recognized 1 FSM in module "uart_rx(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.uart_rx_tb(fast)
+# Loading work.uart_rx(fast)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Tiempo:             15010000 | Enviando Byte: 36 | Parity Type: 1
+# Tiempo:            101810000 | Serial Data Sent: 10110110000
+# ERROR: Parity Error detected at            101810000
+# Tiempo:            115490000 | Enviando Byte: cc | Parity Type: 1
+# Tiempo:            202290000 | Serial Data Sent: 10011001111
+# Transmission completed successfully at            202290000
+# Tiempo:            215970000 | Enviando Byte: 99 | Parity Type: 2
+# Tiempo:            302770000 | Serial Data Sent: 11001100111
+# ERROR: Parity Error detected at            302770000
+# Tiempo:            316450000 | Enviando Byte: 55 | Parity Type: 2
+# Tiempo:            403250000 | Serial Data Sent: 11010101000
+# Transmission completed successfully at            403250000
+# Tiempo:            416930000 | Enviando Byte: f0 | Parity Type: 0
+# Tiempo:            495050000 | Serial Data Sent: 10000111101
+# Transmission completed successfully at            495050000
+# ** Note: $stop    : C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/uart_rx_tb.v(126)
+#    Time: 508730 ns  Iteration: 0  Instance: /uart_rx_tb
+# Break in Module uart_rx_tb at C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/uart_rx_tb.v line 126
+add wave -position insertpoint  \
+sim:/uart_rx_tb/DUT/parity_error \
+sim:/uart_rx_tb/DUT/active_state \
+sim:/uart_rx_tb/DUT/rx_bit_idx \
+sim:/uart_rx_tb/DUT/data_rx_count \
+sim:/uart_rx_tb/DUT/reg_rx_data \
+sim:/uart_rx_tb/DUT/parity_type_reg
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.uart_rx_tb(fast)
+# Loading work.uart_rx(fast)
+run -all
+# Tiempo:             15010000 | Enviando Byte: 36 | Parity Type: 1
+# Tiempo:            101810000 | Serial Data Sent: 10110110000
+# ERROR: Parity Error detected at            101810000
+# Tiempo:            115490000 | Enviando Byte: cc | Parity Type: 1
+# Tiempo:            202290000 | Serial Data Sent: 10011001111
+# Transmission completed successfully at            202290000
+# Tiempo:            215970000 | Enviando Byte: 99 | Parity Type: 2
+# Tiempo:            302770000 | Serial Data Sent: 11001100111
+# ERROR: Parity Error detected at            302770000
+# Tiempo:            316450000 | Enviando Byte: 55 | Parity Type: 2
+# Tiempo:            403250000 | Serial Data Sent: 11010101000
+# Transmission completed successfully at            403250000
+# Tiempo:            416930000 | Enviando Byte: f0 | Parity Type: 0
+# Tiempo:            495050000 | Serial Data Sent: 10000111101
+# Transmission completed successfully at            495050000
+# ** Note: $stop    : C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/uart_rx_tb.v(126)
+#    Time: 508730 ns  Iteration: 0  Instance: /uart_rx_tb
+# Break in Module uart_rx_tb at C:/Users/gnuno/OneDrive/Documentos/Tec/4to/logica_programable/TE2002B-Diseno-con-logica-programable/Practica_6_UART/uart_rx_tb.v line 126
+# End time: 23:04:22 on Mar 14,2025, Elapsed time: 0:03:06
+# Errors: 0, Warnings: 1
